@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixApp.mc" id="1" lineNum="31" parent="globals" pc="268435460" symbol="getApp"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixApp.mc" id="1" lineNum="32" parent="globals" pc="268435470" symbol="getApp"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixBackground.mc" id="2" lineNum="6" parent="globals/Background" pc="268435481" symbol="&lt;init&gt;"/>
+        <entry filename="c:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\bin\\gen\\006-B3991-00\\source\\Rez.mcgen" id="3" lineNum="7" parent="globals/Rez" pc="268435493" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixApp.mc" id="4" lineNum="5" parent="globals/omnitrixApp" pc="268435513" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="5" lineNum="9" parent="globals/omnitrixView" pc="268435525" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixBackground.mc" id="6" lineNum="8" parent="globals/Background" pc="268435537" symbol="initialize"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixBackground.mc" id="6" lineNum="9" parent="globals/Background" pc="268435540" symbol="initialize"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixBackground.mc" id="6" lineNum="13" parent="globals/Background" pc="268435558" symbol="initialize"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixBackground.mc" id="7" lineNum="16" parent="globals/Background" pc="268435575" symbol="draw"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixBackground.mc" id="7" lineNum="18" parent="globals/Background" pc="268435578" symbol="draw"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixBackground.mc" id="7" lineNum="19" parent="globals/Background" pc="268435587" symbol="draw"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixBackground.mc" id="7" lineNum="20" parent="globals/Background" pc="268435596" symbol="draw"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixBackground.mc" id="7" lineNum="21" parent="globals/Background" pc="268435603" symbol="draw"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixBackground.mc" id="7" lineNum="23" parent="globals/Background" pc="268435610" symbol="draw"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixBackground.mc" id="7" lineNum="24" parent="globals/Background" pc="268435631" symbol="draw"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixBackground.mc" id="7" lineNum="27" parent="globals/Background" pc="268435652" symbol="draw"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixBackground.mc" id="7" lineNum="28" parent="globals/Background" pc="268435672" symbol="draw"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixBackground.mc" id="7" lineNum="31" parent="globals/Background" pc="268435688" symbol="draw"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixBackground.mc" id="7" lineNum="33" parent="globals/Background" pc="268435700" symbol="draw"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixBackground.mc" id="7" lineNum="39" parent="globals/Background" pc="268435757" symbol="draw"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixApp.mc" id="8" lineNum="12" parent="globals/omnitrixApp" pc="268435823" symbol="onStart"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixApp.mc" id="9" lineNum="25" parent="globals/omnitrixApp" pc="268435826" symbol="onSettingsChanged"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixApp.mc" id="9" lineNum="26" parent="globals/omnitrixApp" pc="268435828" symbol="onSettingsChanged"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixApp.mc" id="10" lineNum="20" parent="globals/omnitrixApp" pc="268435840" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixApp.mc" id="10" lineNum="21" parent="globals/omnitrixApp" pc="268435842" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixApp.mc" id="11" lineNum="7" parent="globals/omnitrixApp" pc="268435872" symbol="initialize"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixApp.mc" id="11" lineNum="8" parent="globals/omnitrixApp" pc="268435874" symbol="initialize"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixApp.mc" id="12" lineNum="16" parent="globals/omnitrixApp" pc="268435887" symbol="onStop"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="14" lineNum="11" parent="globals/omnitrixView" pc="268435890" symbol="&lt;globals/omnitrixView/&lt;&gt;getDayOfWeek&gt;"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="14" lineNum="12" parent="globals/omnitrixView" pc="268435893" symbol="&lt;globals/omnitrixView/&lt;&gt;getDayOfWeek&gt;"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="14" lineNum="13" parent="globals/omnitrixView" pc="268435900" symbol="&lt;globals/omnitrixView/&lt;&gt;getDayOfWeek&gt;"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="16" lineNum="21" parent="globals/omnitrixView" pc="268435921" symbol="onLayout"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="16" lineNum="22" parent="globals/omnitrixView" pc="268435923" symbol="onLayout"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="18" lineNum="16" parent="globals/omnitrixView" pc="268435957" symbol="initialize"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="18" lineNum="17" parent="globals/omnitrixView" pc="268435959" symbol="initialize"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="20" lineNum="32" parent="globals/omnitrixView" pc="268435972" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="20" lineNum="34" parent="globals/omnitrixView" pc="268435975" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="20" lineNum="35" parent="globals/omnitrixView" pc="268435982" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="20" lineNum="36" parent="globals/omnitrixView" pc="268435994" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="20" lineNum="37" parent="globals/omnitrixView" pc="268436002" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="20" lineNum="38" parent="globals/omnitrixView" pc="268436021" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="20" lineNum="39" parent="globals/omnitrixView" pc="268436029" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="20" lineNum="42" parent="globals/omnitrixView" pc="268436042" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="20" lineNum="43" parent="globals/omnitrixView" pc="268436062" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="20" lineNum="44" parent="globals/omnitrixView" pc="268436069" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="20" lineNum="47" parent="globals/omnitrixView" pc="268436088" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="20" lineNum="48" parent="globals/omnitrixView" pc="268436135" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="20" lineNum="51" parent="globals/omnitrixView" pc="268436156" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="20" lineNum="52" parent="globals/omnitrixView" pc="268436182" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="20" lineNum="55" parent="globals/omnitrixView" pc="268436245" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="20" lineNum="56" parent="globals/omnitrixView" pc="268436254" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="20" lineNum="57" parent="globals/omnitrixView" pc="268436263" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="20" lineNum="58" parent="globals/omnitrixView" pc="268436270" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="20" lineNum="59" parent="globals/omnitrixView" pc="268436277" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="20" lineNum="60" parent="globals/omnitrixView" pc="268436287" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="20" lineNum="61" parent="globals/omnitrixView" pc="268436300" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="20" lineNum="63" parent="globals/omnitrixView" pc="268436304" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="20" lineNum="64" parent="globals/omnitrixView" pc="268436307" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="20" lineNum="65" parent="globals/omnitrixView" pc="268436314" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="20" lineNum="66" parent="globals/omnitrixView" pc="268436326" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="20" lineNum="67" parent="globals/omnitrixView" pc="268436343" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="20" lineNum="69" parent="globals/omnitrixView" pc="268436352" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="20" lineNum="70" parent="globals/omnitrixView" pc="268436357" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="20" lineNum="71" parent="globals/omnitrixView" pc="268436367" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="20" lineNum="72" parent="globals/omnitrixView" pc="268436375" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="20" lineNum="73" parent="globals/omnitrixView" pc="268436384" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="20" lineNum="74" parent="globals/omnitrixView" pc="268436392" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="20" lineNum="75" parent="globals/omnitrixView" pc="268436401" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="20" lineNum="76" parent="globals/omnitrixView" pc="268436409" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="20" lineNum="77" parent="globals/omnitrixView" pc="268436419" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="20" lineNum="78" parent="globals/omnitrixView" pc="268436427" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="20" lineNum="80" parent="globals/omnitrixView" pc="268436437" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="20" lineNum="85" parent="globals/omnitrixView" pc="268436447" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="20" lineNum="86" parent="globals/omnitrixView" pc="268436465" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="20" lineNum="89" parent="globals/omnitrixView" pc="268436481" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="20" lineNum="90" parent="globals/omnitrixView" pc="268436505" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="20" lineNum="90" parent="globals/omnitrixView" pc="268436511" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="20" lineNum="92" parent="globals/omnitrixView" pc="268436527" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="20" lineNum="93" parent="globals/omnitrixView" pc="268436551" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="20" lineNum="93" parent="globals/omnitrixView" pc="268436557" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="20" lineNum="95" parent="globals/omnitrixView" pc="268436573" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="20" lineNum="96" parent="globals/omnitrixView" pc="268436597" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="20" lineNum="96" parent="globals/omnitrixView" pc="268436603" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="20" lineNum="98" parent="globals/omnitrixView" pc="268436619" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="20" lineNum="99" parent="globals/omnitrixView" pc="268436643" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="20" lineNum="100" parent="globals/omnitrixView" pc="268436667" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="20" lineNum="100" parent="globals/omnitrixView" pc="268436673" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="20" lineNum="107" parent="globals/omnitrixView" pc="268436689" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="20" lineNum="108" parent="globals/omnitrixView" pc="268436713" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\source\\omnitrixView.mc" id="20" lineNum="111" parent="globals/omnitrixView" pc="268436737" symbol="onUpdate"/>
+        <entry filename="c:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\bin\\gen\\006-B3991-00\\source\\Rez.mcgen" id="21" lineNum="15" parent="globals/Rez/Layouts" pc="268436758" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\bin\\gen\\006-B3991-00\\source\\Rez.mcgen" id="21" lineNum="16" parent="globals/Rez/Layouts" pc="268436769" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\bin\\gen\\006-B3991-00\\source\\Rez.mcgen" id="21" lineNum="18" parent="globals/Rez/Layouts" pc="268436793" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\bin\\gen\\006-B3991-00\\source\\Rez.mcgen" id="21" lineNum="20" parent="globals/Rez/Layouts" pc="268436870" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\bin\\gen\\006-B3991-00\\source\\Rez.mcgen" id="21" lineNum="22" parent="globals/Rez/Layouts" pc="268436946" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\bin\\gen\\006-B3991-00\\source\\Rez.mcgen" id="21" lineNum="24" parent="globals/Rez/Layouts" pc="268437022" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\bin\\gen\\006-B3991-00\\source\\Rez.mcgen" id="21" lineNum="25" parent="globals/Rez/Layouts" pc="268437109" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\bin\\gen\\006-B3991-00\\source\\Rez.mcgen" id="21" lineNum="27" parent="globals/Rez/Layouts" pc="268437129" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\bin\\gen\\006-B3991-00\\source\\Rez.mcgen" id="21" lineNum="29" parent="globals/Rez/Layouts" pc="268437210" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\bin\\gen\\006-B3991-00\\source\\Rez.mcgen" id="21" lineNum="30" parent="globals/Rez/Layouts" pc="268437297" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\vidlight\\4 - HomeStuff\\workspace\\watchFaces\\omnitrix\\bin\\gen\\006-B3991-00\\source\\Rez.mcgen" id="21" lineNum="32" parent="globals/Rez/Layouts" pc="268437317" symbol="WatchFace"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry id="8389683" method="true" symbol="onSettingsChanged"/>
+        <entry field="true" id="19" symbol="ColorRed"/>
+        <entry field="true" id="22" symbol="MilitaryFormatTitle"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry field="true" id="16" symbol="ColorBlue"/>
+        <entry field="true" id="13" symbol="AppName"/>
+        <entry id="5" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8389345" symbol="rezId"/>
+        <entry id="8388631" module="true" symbol="Activity"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry field="true" id="12" symbol="StepsIcon"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389348" symbol="font"/>
+        <entry id="8389275" method="true" symbol="getApp"/>
+        <entry field="true" id="17" symbol="ColorDarkGray"/>
+        <entry id="4" module="true" symbol="globals/Rez/Layouts"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry id="8389376" method="true" symbol="onEnterSleep"/>
+        <entry field="true" id="8389063" symbol="identifier"/>
+        <entry field="true" id="20" symbol="ColorWhite"/>
+        <entry field="true" id="15" symbol="ColorBlack"/>
+        <entry id="9" method="true" symbol="&lt;globals/omnitrixView/&lt;&gt;getDayOfWeek&gt;"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry field="true" id="10" symbol="HeartIcon"/>
+        <entry id="8389377" method="true" symbol="onExitSleep"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry id="8388645" module="true" symbol="Time"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry id="8389068" method="true" symbol="draw"/>
+        <entry field="true" id="11" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8389123" method="true" symbol="onShow"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry field="true" id="14" symbol="BackgroundColorTitle"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="8390146" module="true" object="true" symbol="Background"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="7" object="true" symbol="omnitrixView"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry field="true" id="18" symbol="ColorLightGray"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry field="true" id="8389347" symbol="color"/>
+        <entry field="true" id="21" symbol="ForegroundColorTitle"/>
+        <entry id="8" module="true" symbol="Layouts"/>
+        <entry id="6" object="true" symbol="omnitrixApp"/>
+        <entry id="8389125" method="true" symbol="onHide"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+    </symbolTable>
+    <localVars>
+        <entry endPc="268435573" name="dictionary" stackId="1" startPc="268435540"/>
+        <entry arg="true" endPc="268435822" name="dc" stackId="1" startPc="268435575"/>
+        <entry endPc="268435821" name="width" stackId="2" startPc="268435578"/>
+        <entry endPc="268435821" name="height" stackId="3" startPc="268435578"/>
+        <entry endPc="268435821" name="centerX" stackId="4" startPc="268435578"/>
+        <entry endPc="268435821" name="centerY" stackId="5" startPc="268435578"/>
+        <entry arg="true" endPc="268435920" name="now" stackId="1" startPc="268435890"/>
+        <entry endPc="268435920" name="dayNames" stackId="2" startPc="268435893"/>
+        <entry arg="true" endPc="268435956" name="dc" stackId="1" startPc="268435921"/>
+        <entry arg="true" endPc="268436757" name="dc" stackId="1" startPc="268435972"/>
+        <entry endPc="268436756" name="timeFormat" stackId="2" startPc="268435975"/>
+        <entry endPc="268436756" name="clockTime" stackId="3" startPc="268435975"/>
+        <entry endPc="268436756" name="hours" stackId="4" startPc="268435975"/>
+        <entry endPc="268436756" name="timeString" stackId="5" startPc="268435975"/>
+        <entry endPc="268436756" name="secondsString" stackId="6" startPc="268435975"/>
+        <entry endPc="268436756" name="today" stackId="7" startPc="268435975"/>
+        <entry endPc="268436756" name="dateString" stackId="8" startPc="268435975"/>
+        <entry endPc="268436756" name="width" stackId="9" startPc="268435975"/>
+        <entry endPc="268436756" name="height" stackId="10" startPc="268435975"/>
+        <entry endPc="268436756" name="centerX" stackId="11" startPc="268435975"/>
+        <entry endPc="268436756" name="centerY" stackId="12" startPc="268435975"/>
+        <entry endPc="268436756" name="circleRadius" stackId="13" startPc="268435975"/>
+        <entry endPc="268436756" name="circleX" stackId="14" startPc="268435975"/>
+        <entry endPc="268436756" name="circleY" stackId="15" startPc="268435975"/>
+        <entry endPc="268436756" name="hr" stackId="16" startPc="268435975"/>
+        <entry endPc="268436756" name="zoneColor" stackId="17" startPc="268435975"/>
+        <entry endPc="268436756" name="activity" stackId="18" startPc="268435975"/>
+        <entry endPc="268436443" name="maxHr" stackId="19" startPc="268436343"/>
+        <entry endPc="268436443" name="percent" stackId="20" startPc="268436343"/>
+        <entry endPc="268436756" name="timeLabel" stackId="21" startPc="268435975"/>
+        <entry endPc="268436756" name="secondsLabel" stackId="22" startPc="268435975"/>
+        <entry endPc="268436756" name="dateLabel" stackId="23" startPc="268435975"/>
+        <entry endPc="268436756" name="heartRateLabel" stackId="24" startPc="268435975"/>
+        <entry endPc="268436756" name="hrText" stackId="25" startPc="268435975"/>
+        <entry endPc="268436756" name="heartIcon" stackId="26" startPc="268435975"/>
+        <entry endPc="268436756" name="stepsIcon" stackId="27" startPc="268435975"/>
+        <entry arg="true" endPc="268437356" name="dc" stackId="1" startPc="268436758"/>
+        <entry endPc="268437356" name="rez_cmp_local_custom_drawable_11939594661139614796" stackId="2" startPc="268436769"/>
+        <entry endPc="268437356" name="rez_cmp_local_text_TimeLabel" stackId="3" startPc="268436769"/>
+        <entry endPc="268437356" name="rez_cmp_local_text_SecondsLabel" stackId="4" startPc="268436769"/>
+        <entry endPc="268437356" name="rez_cmp_local_text_DateLabel" stackId="5" startPc="268436769"/>
+        <entry endPc="268437356" name="rez_cmp_local_bitmap_HeartIcon" stackId="6" startPc="268436769"/>
+        <entry endPc="268437356" name="rez_cmp_local_text_HeartRateLabel" stackId="7" startPc="268436769"/>
+        <entry endPc="268437356" name="rez_cmp_local_bitmap_StepsIcon" stackId="8" startPc="268436769"/>
+    </localVars>
+    <deviceInfo deviceVersion="0ed082a335bbf00c12e5da810e92d4f89288090c" partNumber="006-B3991-00"/>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="MilitaryFormatTitle"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorWhite"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ForegroundColorTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorLightGray"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorBlue"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="BackgroundColorTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorRed"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorDarkGray"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="StepsIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorBlack"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="HeartIcon"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="58" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/Background" offset="134" parentId="globals" symbolId="Background" type="class"/>
+        <dataEntry label="globals/Rez" offset="187" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/omnitrixApp" offset="240" parentId="globals" symbolId="omnitrixApp" type="class"/>
+        <dataEntry label="globals/omnitrixView" offset="320" parentId="globals" symbolId="omnitrixView" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="427" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="480" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="515" parentId="Rez" symbolId="Strings" type="module"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435480" name="getApp" startPc="268435460">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435492" name="&lt;init&gt;" parent="Background" startPc="268435481">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435512" name="&lt;init&gt;" parent="Rez" startPc="268435493">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435524" name="&lt;init&gt;" parent="omnitrixApp" startPc="268435513">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435536" name="&lt;init&gt;" parent="omnitrixView" startPc="268435525">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435574" name="initialize" parent="Background" startPc="268435537">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435822" name="draw" parent="Background" startPc="268435575">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435825" name="onStart" parent="omnitrixApp" startPc="268435823">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435839" name="onSettingsChanged" parent="omnitrixApp" startPc="268435826">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435871" name="getInitialView" parent="omnitrixApp" startPc="268435840">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435886" name="initialize" parent="omnitrixApp" startPc="268435872">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435889" name="onStop" parent="omnitrixApp" startPc="268435887">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onExitSleep" parent="omnitrixView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268435920" name="&lt;globals/omnitrixView/&lt;&gt;getDayOfWeek&gt;" parent="omnitrixView" startPc="268435890">
+            <param id="now"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onShow" parent="omnitrixView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435956" name="onLayout" parent="omnitrixView" startPc="268435921">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onEnterSleep" parent="omnitrixView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435971" name="initialize" parent="omnitrixView" startPc="268435957">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onHide" parent="omnitrixView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436757" name="onUpdate" parent="omnitrixView" startPc="268435972">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437356" name="WatchFace" parent="Layouts" startPc="268436758">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>

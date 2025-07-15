@@ -1,0 +1,1844 @@
+[ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [WatchUi,2,13,20]; ]
+using Toybox.WatchUi;
+[ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [WatchUi,3,13,20]; @symbol_usingAlias = [Ui,3,24,26]; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 4; @symbol_usingdef<0> = [Toybox,4,6,12]; @symbol_usingdef<1> = [Graphics,4,13,21]; ]
+using Toybox.Graphics;
+[ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 5; @symbol_usingdef<0> = [Toybox,5,6,12]; @symbol_usingdef<1> = [Graphics,5,13,21]; @symbol_usingAlias = [Gfx,5,25,28]; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 7; @symbol_moduledef = [Rez,7,7,10]; ]
+module Rez {
+    [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 8; @symbol_moduledef = [Drawables,8,11,20]; ]
+    module Drawables {
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 8; ]
+        <init> {
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 9; @position = 27; initialized = true; @symbol_vardef = [HeartIcon,9,27,36]; @symbol_type<0> = [ResourceId,9,40,50]; ]
+        var HeartIcon as ResourceId;
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 10; @position = 27; initialized = true; @symbol_vardef = [StepsIcon,10,27,36]; @symbol_type<0> = [ResourceId,10,40,50]; ]
+        var StepsIcon as ResourceId;
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 11; @position = 27; initialized = true; @symbol_vardef = [LauncherIcon,11,27,39]; @symbol_type<0> = [ResourceId,11,43,53]; ]
+        var LauncherIcon as ResourceId;
+    }
+    [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 14; @symbol_moduledef = [Layouts,14,11,18]; ]
+    module Layouts {
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 14; ]
+        <init> {
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 15; @symbol_functiondef = [WatchFace,15,17,26]; @symbol_param<0> = [dc,15,27,29]; @symbol_param<0>_type<0> = [Graphics,15,33,41]; @symbol_param<0>_type<1> = [Dc,15,42,44]; @symbol_return<0> = [Array,15,49,54]; @symbol_return<1> = [WatchUi,15,55,62]; @symbol_return<2> = [Drawable,15,63,71]; ]
+        function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+c_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_bin_gen_006_B3991_00_source_Rez_mcgen_15_73_33_8_start:
+[ "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen" 16 12 ]
+            [ "c_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_bin_gen_006_B3991_00_source_Rez_mcgen_15_73_33_8_start" "c_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_bin_gen_006_B3991_00_source_Rez_mcgen_15_73_33_8_stop" ]
+            %rez_cmp_local_custom_drawable_11939594661139614796.1 = local;
+            symbol [ rez_cmp_local_custom_drawable_11939594661139614796 %rez_cmp_local_custom_drawable_11939594661139614796.1 16 16 66 ];
+            symbol [ Background %tmp.4 16 73 83 ];
+            %tmp.4 = getv ? :Background;
+            %tmp.1 = newc %tmp.4 ();
+            lputv %rez_cmp_local_custom_drawable_11939594661139614796.1 %tmp.1;
+            symbol [ rez_cmp_local_custom_drawable_11939594661139614796 %rez_cmp_local_custom_drawable_11939594661139614796.1 16 16 66 ];
+[ "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen" 18 12 ]
+            [ "c_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_bin_gen_006_B3991_00_source_Rez_mcgen_15_73_33_8_start" "c_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_bin_gen_006_B3991_00_source_Rez_mcgen_15_73_33_8_stop" ]
+            %rez_cmp_local_text_TimeLabel.2 = local;
+            symbol [ rez_cmp_local_text_TimeLabel %rez_cmp_local_text_TimeLabel.2 18 16 44 ];
+            symbol [ WatchUi %tmp.7 18 51 58 ];
+            %tmp.7 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.8 18 59 63 ];
+            %tmp.8 = getv function ? %tmp.7 :Text;
+            %tmp.9 = newd 5;
+            %tmp.11 = const :identifier;
+            symbol [ identifier %tmp.11 18 66 76 const ];
+            %tmp.12 = "TimeLabel";
+            %tmp.13 = dup %tmp.9;
+            %tmp.14 = aputv %tmp.13 %tmp.11 %tmp.12;
+            %tmp.16 = const :color;
+            symbol [ color %tmp.16 18 92 97 const ];
+            symbol [ Graphics %tmp.17 18 99 107 ];
+            %tmp.17 = getm $.Toybox.Graphics;
+            symbol [ COLOR_BLACK %tmp.18 18 108 119 ];
+            %tmp.18 = getv %tmp.17 :COLOR_BLACK;
+            %tmp.19 = dup %tmp.14;
+            %tmp.20 = aputv %tmp.19 %tmp.16 %tmp.18;
+            %tmp.22 = const :locX;
+            symbol [ locX %tmp.22 18 122 126 const ];
+            %tmp.23 = 218;
+            %tmp.24 = 35;
+            %tmp.25 = 100.0;
+            %tmp.26 = div %tmp.24 %tmp.25;
+            %tmp.27 = mul %tmp.23 %tmp.26;
+            %tmp.28 = dup %tmp.20;
+            %tmp.29 = aputv %tmp.28 %tmp.22 %tmp.27;
+            %tmp.31 = const :locY;
+            symbol [ locY %tmp.31 18 151 155 const ];
+            %tmp.32 = 218;
+            %tmp.33 = 15;
+            %tmp.34 = 100.0;
+            %tmp.35 = div %tmp.33 %tmp.34;
+            %tmp.36 = mul %tmp.32 %tmp.35;
+            %tmp.37 = dup %tmp.29;
+            %tmp.38 = aputv %tmp.37 %tmp.31 %tmp.36;
+            %tmp.40 = const :font;
+            symbol [ font %tmp.40 18 180 184 const ];
+            symbol [ Graphics %tmp.41 18 186 194 ];
+            %tmp.41 = getm $.Toybox.Graphics;
+            symbol [ FONT_LARGE %tmp.42 18 195 205 ];
+            %tmp.42 = getv %tmp.41 :FONT_LARGE;
+            %tmp.43 = dup %tmp.38;
+            %tmp.44 = aputv %tmp.43 %tmp.40 %tmp.42;
+            %tmp.5 = newc %tmp.8 (%tmp.44);
+            lputv %rez_cmp_local_text_TimeLabel.2 %tmp.5;
+            symbol [ rez_cmp_local_text_TimeLabel %rez_cmp_local_text_TimeLabel.2 18 16 44 ];
+[ "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen" 20 12 ]
+            [ "c_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_bin_gen_006_B3991_00_source_Rez_mcgen_15_73_33_8_start" "c_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_bin_gen_006_B3991_00_source_Rez_mcgen_15_73_33_8_stop" ]
+            %rez_cmp_local_text_SecondsLabel.3 = local;
+            symbol [ rez_cmp_local_text_SecondsLabel %rez_cmp_local_text_SecondsLabel.3 20 16 47 ];
+            symbol [ WatchUi %tmp.47 20 54 61 ];
+            %tmp.47 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.48 20 62 66 ];
+            %tmp.48 = getv function ? %tmp.47 :Text;
+            %tmp.49 = newd 5;
+            %tmp.51 = const :identifier;
+            symbol [ identifier %tmp.51 20 69 79 const ];
+            %tmp.52 = "SecondsLabel";
+            %tmp.53 = dup %tmp.49;
+            %tmp.54 = aputv %tmp.53 %tmp.51 %tmp.52;
+            %tmp.56 = const :color;
+            symbol [ color %tmp.56 20 98 103 const ];
+            symbol [ Graphics %tmp.57 20 105 113 ];
+            %tmp.57 = getm $.Toybox.Graphics;
+            symbol [ COLOR_BLACK %tmp.58 20 114 125 ];
+            %tmp.58 = getv %tmp.57 :COLOR_BLACK;
+            %tmp.59 = dup %tmp.54;
+            %tmp.60 = aputv %tmp.59 %tmp.56 %tmp.58;
+            %tmp.62 = const :locX;
+            symbol [ locX %tmp.62 20 128 132 const ];
+            %tmp.63 = 218;
+            %tmp.64 = 64;
+            %tmp.65 = 100.0;
+            %tmp.66 = div %tmp.64 %tmp.65;
+            %tmp.67 = mul %tmp.63 %tmp.66;
+            %tmp.68 = dup %tmp.60;
+            %tmp.69 = aputv %tmp.68 %tmp.62 %tmp.67;
+            %tmp.71 = const :locY;
+            symbol [ locY %tmp.71 20 157 161 const ];
+            %tmp.72 = 218;
+            %tmp.73 = 17;
+            %tmp.74 = 100.0;
+            %tmp.75 = div %tmp.73 %tmp.74;
+            %tmp.76 = mul %tmp.72 %tmp.75;
+            %tmp.77 = dup %tmp.69;
+            %tmp.78 = aputv %tmp.77 %tmp.71 %tmp.76;
+            %tmp.80 = const :font;
+            symbol [ font %tmp.80 20 186 190 const ];
+            symbol [ Graphics %tmp.81 20 192 200 ];
+            %tmp.81 = getm $.Toybox.Graphics;
+            symbol [ FONT_XTINY %tmp.82 20 201 211 ];
+            %tmp.82 = getv %tmp.81 :FONT_XTINY;
+            %tmp.83 = dup %tmp.78;
+            %tmp.84 = aputv %tmp.83 %tmp.80 %tmp.82;
+            %tmp.45 = newc %tmp.48 (%tmp.84);
+            lputv %rez_cmp_local_text_SecondsLabel.3 %tmp.45;
+            symbol [ rez_cmp_local_text_SecondsLabel %rez_cmp_local_text_SecondsLabel.3 20 16 47 ];
+[ "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen" 22 12 ]
+            [ "c_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_bin_gen_006_B3991_00_source_Rez_mcgen_15_73_33_8_start" "c_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_bin_gen_006_B3991_00_source_Rez_mcgen_15_73_33_8_stop" ]
+            %rez_cmp_local_text_DateLabel.4 = local;
+            symbol [ rez_cmp_local_text_DateLabel %rez_cmp_local_text_DateLabel.4 22 16 44 ];
+            symbol [ WatchUi %tmp.87 22 51 58 ];
+            %tmp.87 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.88 22 59 63 ];
+            %tmp.88 = getv function ? %tmp.87 :Text;
+            %tmp.89 = newd 5;
+            %tmp.91 = const :identifier;
+            symbol [ identifier %tmp.91 22 66 76 const ];
+            %tmp.92 = "DateLabel";
+            %tmp.93 = dup %tmp.89;
+            %tmp.94 = aputv %tmp.93 %tmp.91 %tmp.92;
+            %tmp.96 = const :color;
+            symbol [ color %tmp.96 22 92 97 const ];
+            symbol [ Graphics %tmp.97 22 99 107 ];
+            %tmp.97 = getm $.Toybox.Graphics;
+            symbol [ COLOR_BLACK %tmp.98 22 108 119 ];
+            %tmp.98 = getv %tmp.97 :COLOR_BLACK;
+            %tmp.99 = dup %tmp.94;
+            %tmp.100 = aputv %tmp.99 %tmp.96 %tmp.98;
+            %tmp.102 = const :locX;
+            symbol [ locX %tmp.102 22 122 126 const ];
+            %tmp.103 = 218;
+            %tmp.104 = 33;
+            %tmp.105 = 100.0;
+            %tmp.106 = div %tmp.104 %tmp.105;
+            %tmp.107 = mul %tmp.103 %tmp.106;
+            %tmp.108 = dup %tmp.100;
+            %tmp.109 = aputv %tmp.108 %tmp.102 %tmp.107;
+            %tmp.111 = const :locY;
+            symbol [ locY %tmp.111 22 151 155 const ];
+            %tmp.112 = 218;
+            %tmp.113 = 27;
+            %tmp.114 = 100.0;
+            %tmp.115 = div %tmp.113 %tmp.114;
+            %tmp.116 = mul %tmp.112 %tmp.115;
+            %tmp.117 = dup %tmp.109;
+            %tmp.118 = aputv %tmp.117 %tmp.111 %tmp.116;
+            %tmp.120 = const :font;
+            symbol [ font %tmp.120 22 180 184 const ];
+            symbol [ Graphics %tmp.121 22 186 194 ];
+            %tmp.121 = getm $.Toybox.Graphics;
+            symbol [ FONT_XTINY %tmp.122 22 195 205 ];
+            %tmp.122 = getv %tmp.121 :FONT_XTINY;
+            %tmp.123 = dup %tmp.118;
+            %tmp.124 = aputv %tmp.123 %tmp.120 %tmp.122;
+            %tmp.85 = newc %tmp.88 (%tmp.124);
+            lputv %rez_cmp_local_text_DateLabel.4 %tmp.85;
+            symbol [ rez_cmp_local_text_DateLabel %rez_cmp_local_text_DateLabel.4 22 16 44 ];
+[ "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen" 24 12 ]
+            [ "c_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_bin_gen_006_B3991_00_source_Rez_mcgen_15_73_33_8_start" "c_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_bin_gen_006_B3991_00_source_Rez_mcgen_15_73_33_8_stop" ]
+            %rez_cmp_local_bitmap_HeartIcon.5 = local;
+            symbol [ rez_cmp_local_bitmap_HeartIcon %rez_cmp_local_bitmap_HeartIcon.5 24 16 46 ];
+            symbol [ WatchUi %tmp.127 24 53 60 ];
+            %tmp.127 = getm $.Toybox.WatchUi;
+            symbol [ Bitmap %tmp.128 24 61 67 ];
+            %tmp.128 = getv function ? %tmp.127 :Bitmap;
+            %tmp.129 = newd 4;
+            %tmp.131 = const :identifier;
+            symbol [ identifier %tmp.131 24 70 80 const ];
+            %tmp.132 = "HeartIcon";
+            %tmp.133 = dup %tmp.129;
+            %tmp.134 = aputv %tmp.133 %tmp.131 %tmp.132;
+            %tmp.136 = const :rezId;
+            symbol [ rezId %tmp.136 24 96 101 const ];
+            symbol [ $ %tmp.137 24 103 104 ];
+            %tmp.137 = getm $;
+            symbol [ Rez %tmp.138 24 105 108 ];
+            %tmp.138 = getv %tmp.137 :Rez;
+            symbol [ Drawables %tmp.139 24 109 118 ];
+            %tmp.139 = getv %tmp.138 :Drawables;
+            symbol [ HeartIcon %tmp.140 24 119 128 ];
+            %tmp.140 = getv %tmp.139 :HeartIcon;
+            %tmp.141 = dup %tmp.134;
+            %tmp.142 = aputv %tmp.141 %tmp.136 %tmp.140;
+            %tmp.144 = const :locX;
+            symbol [ locX %tmp.144 24 131 135 const ];
+            %tmp.145 = 218;
+            %tmp.146 = 75;
+            %tmp.147 = 100.0;
+            %tmp.148 = div %tmp.146 %tmp.147;
+            %tmp.149 = mul %tmp.145 %tmp.148;
+            %tmp.150 = dup %tmp.142;
+            %tmp.151 = aputv %tmp.150 %tmp.144 %tmp.149;
+            %tmp.153 = const :locY;
+            symbol [ locY %tmp.153 24 160 164 const ];
+            %tmp.154 = 218;
+            %tmp.155 = 40;
+            %tmp.156 = 100.0;
+            %tmp.157 = div %tmp.155 %tmp.156;
+            %tmp.158 = mul %tmp.154 %tmp.157;
+            %tmp.159 = dup %tmp.151;
+            %tmp.160 = aputv %tmp.159 %tmp.153 %tmp.158;
+            %tmp.125 = newc %tmp.128 (%tmp.160);
+            lputv %rez_cmp_local_bitmap_HeartIcon.5 %tmp.125;
+            symbol [ rez_cmp_local_bitmap_HeartIcon %rez_cmp_local_bitmap_HeartIcon.5 24 16 46 ];
+[ "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen" 25 12 ]
+            %tmp.161 = lgetv %rez_cmp_local_bitmap_HeartIcon.5;
+            symbol [ rez_cmp_local_bitmap_HeartIcon %tmp.161 25 12 42 ];
+            symbol [ setLocation %tmp.162 25 43 54 ];
+            %tmp.162 = getv function %tmp.161 :setLocation;
+            %tmp.163 = 218;
+            %tmp.164 = 75;
+            %tmp.165 = 100.0;
+            %tmp.166 = div %tmp.164 %tmp.165;
+            %tmp.167 = mul %tmp.163 %tmp.166;
+            %tmp.168 = 218;
+            %tmp.169 = 40;
+            %tmp.170 = 100.0;
+            %tmp.171 = div %tmp.169 %tmp.170;
+            %tmp.172 = mul %tmp.168 %tmp.171;
+            invoke %tmp.161 %tmp.162(%tmp.167, %tmp.172);
+[ "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen" 27 12 ]
+            [ "c_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_bin_gen_006_B3991_00_source_Rez_mcgen_15_73_33_8_start" "c_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_bin_gen_006_B3991_00_source_Rez_mcgen_15_73_33_8_stop" ]
+            %rez_cmp_local_text_HeartRateLabel.6 = local;
+            symbol [ rez_cmp_local_text_HeartRateLabel %rez_cmp_local_text_HeartRateLabel.6 27 16 49 ];
+            symbol [ WatchUi %tmp.175 27 56 63 ];
+            %tmp.175 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.176 27 64 68 ];
+            %tmp.176 = getv function ? %tmp.175 :Text;
+            %tmp.177 = newd 5;
+            %tmp.179 = const :identifier;
+            symbol [ identifier %tmp.179 27 71 81 const ];
+            %tmp.180 = "HeartRateLabel";
+            %tmp.181 = dup %tmp.177;
+            %tmp.182 = aputv %tmp.181 %tmp.179 %tmp.180;
+            %tmp.184 = const :color;
+            symbol [ color %tmp.184 27 102 107 const ];
+            symbol [ Graphics %tmp.185 27 109 117 ];
+            %tmp.185 = getm $.Toybox.Graphics;
+            symbol [ COLOR_RED %tmp.186 27 118 127 ];
+            %tmp.186 = getv %tmp.185 :COLOR_RED;
+            %tmp.187 = dup %tmp.182;
+            %tmp.188 = aputv %tmp.187 %tmp.184 %tmp.186;
+            %tmp.190 = const :locX;
+            symbol [ locX %tmp.190 27 130 134 const ];
+            %tmp.191 = 218;
+            %tmp.192 = 77;
+            %tmp.193 = 100.0;
+            %tmp.194 = div %tmp.192 %tmp.193;
+            %tmp.195 = mul %tmp.191 %tmp.194;
+            %tmp.196 = dup %tmp.188;
+            %tmp.197 = aputv %tmp.196 %tmp.190 %tmp.195;
+            %tmp.199 = const :locY;
+            symbol [ locY %tmp.199 27 159 163 const ];
+            %tmp.200 = 218;
+            %tmp.201 = 50;
+            %tmp.202 = 100.0;
+            %tmp.203 = div %tmp.201 %tmp.202;
+            %tmp.204 = mul %tmp.200 %tmp.203;
+            %tmp.205 = dup %tmp.197;
+            %tmp.206 = aputv %tmp.205 %tmp.199 %tmp.204;
+            %tmp.208 = const :font;
+            symbol [ font %tmp.208 27 188 192 const ];
+            symbol [ Graphics %tmp.209 27 194 202 ];
+            %tmp.209 = getm $.Toybox.Graphics;
+            symbol [ FONT_SMALL %tmp.210 27 203 213 ];
+            %tmp.210 = getv %tmp.209 :FONT_SMALL;
+            %tmp.211 = dup %tmp.206;
+            %tmp.212 = aputv %tmp.211 %tmp.208 %tmp.210;
+            %tmp.173 = newc %tmp.176 (%tmp.212);
+            lputv %rez_cmp_local_text_HeartRateLabel.6 %tmp.173;
+            symbol [ rez_cmp_local_text_HeartRateLabel %rez_cmp_local_text_HeartRateLabel.6 27 16 49 ];
+[ "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen" 29 12 ]
+            [ "c_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_bin_gen_006_B3991_00_source_Rez_mcgen_15_73_33_8_start" "c_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_bin_gen_006_B3991_00_source_Rez_mcgen_15_73_33_8_stop" ]
+            %rez_cmp_local_bitmap_StepsIcon.7 = local;
+            symbol [ rez_cmp_local_bitmap_StepsIcon %rez_cmp_local_bitmap_StepsIcon.7 29 16 46 ];
+            symbol [ WatchUi %tmp.215 29 53 60 ];
+            %tmp.215 = getm $.Toybox.WatchUi;
+            symbol [ Bitmap %tmp.216 29 61 67 ];
+            %tmp.216 = getv function ? %tmp.215 :Bitmap;
+            %tmp.217 = newd 4;
+            %tmp.219 = const :identifier;
+            symbol [ identifier %tmp.219 29 70 80 const ];
+            %tmp.220 = "StepsIcon";
+            %tmp.221 = dup %tmp.217;
+            %tmp.222 = aputv %tmp.221 %tmp.219 %tmp.220;
+            %tmp.224 = const :rezId;
+            symbol [ rezId %tmp.224 29 96 101 const ];
+            symbol [ $ %tmp.225 29 103 104 ];
+            %tmp.225 = getm $;
+            symbol [ Rez %tmp.226 29 105 108 ];
+            %tmp.226 = getv %tmp.225 :Rez;
+            symbol [ Drawables %tmp.227 29 109 118 ];
+            %tmp.227 = getv %tmp.226 :Drawables;
+            symbol [ StepsIcon %tmp.228 29 119 128 ];
+            %tmp.228 = getv %tmp.227 :StepsIcon;
+            %tmp.229 = dup %tmp.222;
+            %tmp.230 = aputv %tmp.229 %tmp.224 %tmp.228;
+            %tmp.232 = const :locX;
+            symbol [ locX %tmp.232 29 131 135 const ];
+            %tmp.233 = 218;
+            %tmp.234 = 20;
+            %tmp.235 = 100.0;
+            %tmp.236 = div %tmp.234 %tmp.235;
+            %tmp.237 = mul %tmp.233 %tmp.236;
+            %tmp.238 = dup %tmp.230;
+            %tmp.239 = aputv %tmp.238 %tmp.232 %tmp.237;
+            %tmp.241 = const :locY;
+            symbol [ locY %tmp.241 29 160 164 const ];
+            %tmp.242 = 218;
+            %tmp.243 = 40;
+            %tmp.244 = 100.0;
+            %tmp.245 = div %tmp.243 %tmp.244;
+            %tmp.246 = mul %tmp.242 %tmp.245;
+            %tmp.247 = dup %tmp.239;
+            %tmp.248 = aputv %tmp.247 %tmp.241 %tmp.246;
+            %tmp.213 = newc %tmp.216 (%tmp.248);
+            lputv %rez_cmp_local_bitmap_StepsIcon.7 %tmp.213;
+            symbol [ rez_cmp_local_bitmap_StepsIcon %rez_cmp_local_bitmap_StepsIcon.7 29 16 46 ];
+[ "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen" 30 12 ]
+            %tmp.249 = lgetv %rez_cmp_local_bitmap_StepsIcon.7;
+            symbol [ rez_cmp_local_bitmap_StepsIcon %tmp.249 30 12 42 ];
+            symbol [ setLocation %tmp.250 30 43 54 ];
+            %tmp.250 = getv function %tmp.249 :setLocation;
+            %tmp.251 = 218;
+            %tmp.252 = 20;
+            %tmp.253 = 100.0;
+            %tmp.254 = div %tmp.252 %tmp.253;
+            %tmp.255 = mul %tmp.251 %tmp.254;
+            %tmp.256 = 218;
+            %tmp.257 = 40;
+            %tmp.258 = 100.0;
+            %tmp.259 = div %tmp.257 %tmp.258;
+            %tmp.260 = mul %tmp.256 %tmp.259;
+            invoke %tmp.249 %tmp.250(%tmp.255, %tmp.260);
+[ "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen" 32 12 ]
+            %tmp.261 = newa 7 Array<WatchUi.Drawable>;
+            symbol [ Array %tmp.261 32 267 272 ];
+            symbol [ WatchUi %tmp.261 32 273 280 ];
+            symbol [ Drawable %tmp.261 32 281 289 ];
+            %tmp.262 = lgetv %rez_cmp_local_custom_drawable_11939594661139614796.1;
+            symbol [ rez_cmp_local_custom_drawable_11939594661139614796 %tmp.262 32 20 70 ];
+            %tmp.263 = dup %tmp.261;
+            %tmp.264 = aputv %tmp.263 0 %tmp.262;
+            %tmp.265 = lgetv %rez_cmp_local_text_TimeLabel.2;
+            symbol [ rez_cmp_local_text_TimeLabel %tmp.265 32 72 100 ];
+            %tmp.266 = dup %tmp.264;
+            %tmp.267 = aputv %tmp.266 1 %tmp.265;
+            %tmp.268 = lgetv %rez_cmp_local_text_SecondsLabel.3;
+            symbol [ rez_cmp_local_text_SecondsLabel %tmp.268 32 102 133 ];
+            %tmp.269 = dup %tmp.267;
+            %tmp.270 = aputv %tmp.269 2 %tmp.268;
+            %tmp.271 = lgetv %rez_cmp_local_text_DateLabel.4;
+            symbol [ rez_cmp_local_text_DateLabel %tmp.271 32 135 163 ];
+            %tmp.272 = dup %tmp.270;
+            %tmp.273 = aputv %tmp.272 3 %tmp.271;
+            %tmp.274 = lgetv %rez_cmp_local_bitmap_HeartIcon.5;
+            symbol [ rez_cmp_local_bitmap_HeartIcon %tmp.274 32 165 195 ];
+            %tmp.275 = dup %tmp.273;
+            %tmp.276 = aputv %tmp.275 4 %tmp.274;
+            %tmp.277 = lgetv %rez_cmp_local_text_HeartRateLabel.6;
+            symbol [ rez_cmp_local_text_HeartRateLabel %tmp.277 32 197 230 ];
+            %tmp.278 = dup %tmp.276;
+            %tmp.279 = aputv %tmp.278 5 %tmp.277;
+            %tmp.280 = lgetv %rez_cmp_local_bitmap_StepsIcon.7;
+            symbol [ rez_cmp_local_bitmap_StepsIcon %tmp.280 32 232 262 ];
+            %tmp.281 = dup %tmp.279;
+            %tmp.282 = aputv %tmp.281 6 %tmp.280;
+            ret %tmp.282;
+c_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_bin_gen_006_B3991_00_source_Rez_mcgen_15_73_33_8_stop:
+        }
+    }
+    [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 36; @symbol_moduledef = [Strings,36,11,18]; ]
+    module Strings {
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 36; ]
+        <init> {
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 37; @position = 27; initialized = true; @symbol_vardef = [ColorLightGray,37,27,41]; @symbol_type<0> = [ResourceId,37,45,55]; ]
+        var ColorLightGray as ResourceId;
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 38; @position = 27; initialized = true; @symbol_vardef = [ColorBlue,38,27,36]; @symbol_type<0> = [ResourceId,38,40,50]; ]
+        var ColorBlue as ResourceId;
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 39; @position = 27; initialized = true; @symbol_vardef = [ColorRed,39,27,35]; @symbol_type<0> = [ResourceId,39,39,49]; ]
+        var ColorRed as ResourceId;
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 40; @position = 27; initialized = true; @symbol_vardef = [ForegroundColorTitle,40,27,47]; @symbol_type<0> = [ResourceId,40,51,61]; ]
+        var ForegroundColorTitle as ResourceId;
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 41; @position = 27; initialized = true; @symbol_vardef = [BackgroundColorTitle,41,27,47]; @symbol_type<0> = [ResourceId,41,51,61]; ]
+        var BackgroundColorTitle as ResourceId;
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 42; @position = 27; initialized = true; @symbol_vardef = [ColorDarkGray,42,27,40]; @symbol_type<0> = [ResourceId,42,44,54]; ]
+        var ColorDarkGray as ResourceId;
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 43; @position = 27; initialized = true; @symbol_vardef = [MilitaryFormatTitle,43,27,46]; @symbol_type<0> = [ResourceId,43,50,60]; ]
+        var MilitaryFormatTitle as ResourceId;
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 44; @position = 27; initialized = true; @symbol_vardef = [ColorBlack,44,27,37]; @symbol_type<0> = [ResourceId,44,41,51]; ]
+        var ColorBlack as ResourceId;
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 45; @position = 27; initialized = true; @symbol_vardef = [ColorWhite,45,27,37]; @symbol_type<0> = [ResourceId,45,41,51]; ]
+        var ColorWhite as ResourceId;
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 46; @position = 27; initialized = true; @symbol_vardef = [AppName,46,27,34]; @symbol_type<0> = [ResourceId,46,38,48]; ]
+        var AppName as ResourceId;
+    }
+    [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 49; @symbol_moduledef = [Styles,49,11,17]; ]
+    module Styles {
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 49; ]
+        <init> {
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 50; @symbol_moduledef = [prompt_font_enhanced_readability__body_with_title,50,15,64]; ]
+        module prompt_font_enhanced_readability__body_with_title {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 50; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 51; @position = 18; @symbol_constdef = [exclude,51,18,25]; @symbol_type<0> = [Boolean,51,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 54; @symbol_moduledef = [system_size__menu_header,54,15,39]; ]
+        module system_size__menu_header {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 54; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 55; @position = 18; @symbol_constdef = [width,55,18,23]; @symbol_type<0> = [Number,55,27,33]; ]
+            const width as Number = 218;
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 56; @position = 18; @symbol_constdef = [height,56,18,24]; @symbol_type<0> = [Number,56,28,34]; ]
+            const height as Number = 68;
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 59; @symbol_moduledef = [system_loc__hint_button_left_bottom,59,15,50]; ]
+        module system_loc__hint_button_left_bottom {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 59; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 60; @position = 18; @symbol_constdef = [x,60,18,19]; @symbol_type<0> = [Number,60,23,29]; ]
+            const x as Number = 11;
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 61; @position = 18; @symbol_constdef = [y,61,18,19]; @symbol_type<0> = [Number,61,23,29]; ]
+            const y as Number = 145;
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 64; @symbol_moduledef = [prompt_font_enhanced_readability__body_no_title,64,15,62]; ]
+        module prompt_font_enhanced_readability__body_no_title {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 64; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 65; @position = 18; @symbol_constdef = [exclude,65,18,25]; @symbol_type<0> = [Boolean,65,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 68; @symbol_moduledef = [prompt_loc__body_no_title,68,15,40]; ]
+        module prompt_loc__body_no_title {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 68; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 69; @position = 18; @symbol_constdef = [x,69,18,19]; @symbol_type<0> = [Float,69,23,28]; ]
+            const x as Float = 0.1;
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 70; @position = 18; @symbol_constdef = [y,70,18,19]; @symbol_type<0> = [Float,70,23,28]; ]
+            const y as Float = 0.1;
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 73; @symbol_moduledef = [system_icon_dark__about,73,15,38]; ]
+        module system_icon_dark__about {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 73; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 74; @position = 18; @symbol_constdef = [filename,74,18,26]; @symbol_type<0> = [String,74,30,36]; ]
+            const filename as String = "C:\\Users\\vidlight\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr255sm\\system_icon_dark__about.svg";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 75; @position = 18; @symbol_constdef = [compress,75,18,26]; @symbol_type<0> = [String,75,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 76; @position = 18; @symbol_constdef = [dithering,76,18,27]; @symbol_type<0> = [String,76,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 77; @position = 18; @symbol_constdef = [automaticPalette,77,18,34]; @symbol_type<0> = [String,77,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 80; @symbol_moduledef = [system_icon_light__question,80,15,42]; ]
+        module system_icon_light__question {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 80; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 81; @position = 18; @symbol_constdef = [filename,81,18,26]; @symbol_type<0> = [String,81,30,36]; ]
+            const filename as String = "C:\\Users\\vidlight\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr255sm\\system_icon_light__question.svg";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 82; @position = 18; @symbol_constdef = [dithering,82,18,27]; @symbol_type<0> = [String,82,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 85; @symbol_moduledef = [system_loc__hint_button_left_top,85,15,47]; ]
+        module system_loc__hint_button_left_top {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 85; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 86; @position = 18; @symbol_constdef = [exclude,86,18,25]; @symbol_type<0> = [Boolean,86,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 89; @symbol_moduledef = [prompt_font__title,89,15,33]; ]
+        module prompt_font__title {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 89; ]
+            <init> {
+[ "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen" 90 18 ]
+                symbol [ Graphics %tmp.283 90 34 42 ];
+                %tmp.283 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.284 90 43 62 ];
+                %tmp.284 = getv %tmp.283 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.285 90 63 71 ];
+                %tmp.285 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.286 90 72 92 ];
+                %tmp.286 = getv %tmp.285 :TEXT_JUSTIFY_VCENTER;
+                %tmp.287 = bitor %tmp.284 %tmp.286;
+                putv self :justification %tmp.287;
+[ "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen" 91 18 ]
+                symbol [ Graphics %tmp.288 91 25 33 ];
+                %tmp.288 = getm $.Toybox.Graphics;
+                symbol [ FONT_XTINY %tmp.289 91 34 44 ];
+                %tmp.289 = getv %tmp.288 :FONT_XTINY;
+                putv self :font %tmp.289;
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 90; @position = 18; @symbol_constdef = [justification,90,18,31]; ]
+            const justification;
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 91; @position = 18; @symbol_constdef = [font,91,18,22]; ]
+            const font;
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 94; @symbol_moduledef = [system_icon_dark__discard,94,15,40]; ]
+        module system_icon_dark__discard {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 94; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 95; @position = 18; @symbol_constdef = [filename,95,18,26]; @symbol_type<0> = [String,95,30,36]; ]
+            const filename as String = "C:\\Users\\vidlight\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr255sm\\system_icon_dark__discard.svg";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 96; @position = 18; @symbol_constdef = [compress,96,18,26]; @symbol_type<0> = [String,96,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 97; @position = 18; @symbol_constdef = [dithering,97,18,27]; @symbol_type<0> = [String,97,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 98; @position = 18; @symbol_constdef = [automaticPalette,98,18,34]; @symbol_type<0> = [String,98,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 101; @symbol_moduledef = [system_size__menu_item,101,15,37]; ]
+        module system_size__menu_item {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 101; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 102; @position = 18; @symbol_constdef = [width,102,18,23]; @symbol_type<0> = [Number,102,27,33]; ]
+            const width as Number = 218;
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 103; @position = 18; @symbol_constdef = [height,103,18,24]; @symbol_type<0> = [Number,103,28,34]; ]
+            const height as Number = 57;
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 106; @symbol_moduledef = [system_color_dark__text,106,15,38]; ]
+        module system_color_dark__text {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 106; ]
+            <init> {
+[ "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen" 108 18 ]
+                symbol [ Graphics %tmp.290 108 31 39 ];
+                %tmp.290 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.291 108 40 57 ];
+                %tmp.291 = getv %tmp.290 :COLOR_TRANSPARENT;
+                putv self :background %tmp.291;
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 107; @position = 18; @symbol_constdef = [color,107,18,23]; @symbol_type<0> = [Number,107,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 108; @position = 18; @symbol_constdef = [background,108,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 111; @symbol_moduledef = [system_icon_destructive__discard,111,15,47]; ]
+        module system_icon_destructive__discard {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 111; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 112; @position = 18; @symbol_constdef = [filename,112,18,26]; @symbol_type<0> = [String,112,30,36]; ]
+            const filename as String = "C:\\Users\\vidlight\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr255sm\\system_icon_destructive__discard.svg";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 113; @position = 18; @symbol_constdef = [dithering,113,18,27]; @symbol_type<0> = [String,113,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 116; @symbol_moduledef = [system_icon_dark__hint_action_menu,116,15,49]; ]
+        module system_icon_dark__hint_action_menu {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 116; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 117; @position = 18; @symbol_constdef = [filename,117,18,26]; @symbol_type<0> = [String,117,30,36]; ]
+            const filename as String = "C:\\Users\\vidlight\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr255sm\\system_icon_dark__hint_button_right_top.svg";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 118; @position = 18; @symbol_constdef = [dithering,118,18,27]; @symbol_type<0> = [String,118,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 121; @symbol_moduledef = [prompt_size__title,121,15,33]; ]
+        module prompt_size__title {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 121; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 122; @position = 18; @symbol_constdef = [width,122,18,23]; @symbol_type<0> = [Float,122,27,32]; ]
+            const width as Float = 0.8;
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 123; @position = 18; @symbol_constdef = [height,123,18,24]; @symbol_type<0> = [Float,123,28,33]; ]
+            const height as Float = 0.1846;
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 126; @symbol_moduledef = [confirmation_font__body,126,15,38]; ]
+        module confirmation_font__body {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 126; ]
+            <init> {
+[ "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen" 127 18 ]
+                symbol [ Graphics %tmp.292 127 34 42 ];
+                %tmp.292 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.293 127 43 62 ];
+                %tmp.293 = getv %tmp.292 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.294 127 63 71 ];
+                %tmp.294 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.295 127 72 92 ];
+                %tmp.295 = getv %tmp.294 :TEXT_JUSTIFY_VCENTER;
+                %tmp.296 = bitor %tmp.293 %tmp.295;
+                putv self :justification %tmp.296;
+[ "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen" 128 18 ]
+                symbol [ Graphics %tmp.297 128 25 33 ];
+                %tmp.297 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.298 128 34 43 ];
+                %tmp.298 = getv %tmp.297 :FONT_TINY;
+                putv self :font %tmp.298;
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 127; @position = 18; @symbol_constdef = [justification,127,18,31]; ]
+            const justification;
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 128; @position = 18; @symbol_constdef = [font,128,18,22]; ]
+            const font;
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 131; @symbol_moduledef = [system_color_dark__background,131,15,44]; ]
+        module system_color_dark__background {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 131; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 132; @position = 18; @symbol_constdef = [color,132,18,23]; @symbol_type<0> = [Number,132,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 133; @position = 18; @symbol_constdef = [background,133,18,28]; @symbol_type<0> = [Number,133,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 136; @symbol_moduledef = [system_icon_destructive__hint_button_left_top,136,15,60]; ]
+        module system_icon_destructive__hint_button_left_top {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 136; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 137; @position = 18; @symbol_constdef = [filename,137,18,26]; @symbol_type<0> = [String,137,30,36]; ]
+            const filename as String = "C:\\Users\\vidlight\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr255sm\\system_icon_destructive__hint_button_left_top.svg";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 138; @position = 18; @symbol_constdef = [dithering,138,18,27]; @symbol_type<0> = [String,138,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 141; @symbol_moduledef = [system_size__launch_icon,141,15,39]; ]
+        module system_size__launch_icon {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 141; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 142; @position = 18; @symbol_constdef = [scaleX,142,18,24]; @symbol_type<0> = [Number,142,28,34]; ]
+            const scaleX as Number = 40;
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 143; @position = 18; @symbol_constdef = [scaleY,143,18,24]; @symbol_type<0> = [Number,143,28,34]; ]
+            const scaleY as Number = 40;
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 144; @position = 18; @symbol_constdef = [scaleRelativeTo,144,18,33]; @symbol_type<0> = [String,144,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 147; @symbol_moduledef = [confirmation_input__confirm,147,15,42]; ]
+        module confirmation_input__confirm {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 147; ]
+            <init> {
+[ "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen" 148 18 ]
+                symbol [ WatchUi %tmp.299 148 27 34 ];
+                %tmp.299 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.300 148 35 44 ];
+                %tmp.300 = getv %tmp.299 :KEY_ENTER;
+                putv self :button %tmp.300;
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 148; @position = 18; @symbol_constdef = [button,148,18,24]; ]
+            const button;
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 151; @symbol_moduledef = [prompt_font__body_with_title,151,15,43]; ]
+        module prompt_font__body_with_title {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 151; ]
+            <init> {
+[ "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen" 152 18 ]
+                symbol [ Graphics %tmp.301 152 34 42 ];
+                %tmp.301 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.302 152 43 62 ];
+                %tmp.302 = getv %tmp.301 :TEXT_JUSTIFY_CENTER;
+                putv self :justification %tmp.302;
+[ "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen" 153 18 ]
+                symbol [ Graphics %tmp.303 153 25 33 ];
+                %tmp.303 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.304 153 34 43 ];
+                %tmp.304 = getv %tmp.303 :FONT_TINY;
+                putv self :font %tmp.304;
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 152; @position = 18; @symbol_constdef = [justification,152,18,31]; ]
+            const justification;
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 153; @position = 18; @symbol_constdef = [font,153,18,22]; ]
+            const font;
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 156; @symbol_moduledef = [confirmation_loc__body,156,15,37]; ]
+        module confirmation_loc__body {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 156; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 157; @position = 18; @symbol_constdef = [x,157,18,19]; @symbol_type<0> = [Float,157,23,28]; ]
+            const x as Float = 0.2;
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 158; @position = 18; @symbol_constdef = [y,158,18,19]; @symbol_type<0> = [Float,158,23,28]; ]
+            const y as Float = 0.2;
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 161; @symbol_moduledef = [system_icon_destructive__hint_button_left_bottom,161,15,63]; ]
+        module system_icon_destructive__hint_button_left_bottom {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 161; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 162; @position = 18; @symbol_constdef = [filename,162,18,26]; @symbol_type<0> = [String,162,30,36]; ]
+            const filename as String = "C:\\Users\\vidlight\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr255sm\\system_icon_destructive__hint_button_left_bottom.svg";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 163; @position = 18; @symbol_constdef = [dithering,163,18,27]; @symbol_type<0> = [String,163,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 166; @symbol_moduledef = [prompt_color_dark__background,166,15,44]; ]
+        module prompt_color_dark__background {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 166; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 167; @position = 18; @symbol_constdef = [color,167,18,23]; @symbol_type<0> = [Number,167,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 168; @position = 18; @symbol_constdef = [background,168,18,28]; @symbol_type<0> = [Number,168,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 171; @symbol_moduledef = [system_icon_destructive__hint_action_menu,171,15,56]; ]
+        module system_icon_destructive__hint_action_menu {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 171; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 172; @position = 18; @symbol_constdef = [filename,172,18,26]; @symbol_type<0> = [String,172,30,36]; ]
+            const filename as String = "C:\\Users\\vidlight\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr255sm\\system_icon_destructive__hint_button_right_top.svg";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 173; @position = 18; @symbol_constdef = [dithering,173,18,27]; @symbol_type<0> = [String,173,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 176; @symbol_moduledef = [system_loc__hint_action_menu,176,15,43]; ]
+        module system_loc__hint_action_menu {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 176; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 177; @position = 18; @symbol_constdef = [x,177,18,19]; @symbol_type<0> = [Number,177,23,29]; ]
+            const x as Number = 183;
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 178; @position = 18; @symbol_constdef = [y,178,18,19]; @symbol_type<0> = [Number,178,23,29]; ]
+            const y as Number = 35;
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 181; @symbol_moduledef = [confirmation_icon__hint_confirm,181,15,46]; ]
+        module confirmation_icon__hint_confirm {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 181; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 182; @position = 18; @symbol_constdef = [filename,182,18,26]; @symbol_type<0> = [String,182,30,36]; ]
+            const filename as String = "C:\\Users\\vidlight\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr255sm\\confirmation_icon__hint_completion.svg";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 183; @position = 18; @symbol_constdef = [dithering,183,18,27]; @symbol_type<0> = [String,183,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 186; @symbol_moduledef = [system_loc__hint_button_left_middle,186,15,50]; ]
+        module system_loc__hint_button_left_middle {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 186; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 187; @position = 18; @symbol_constdef = [x,187,18,19]; @symbol_type<0> = [Number,187,23,29]; ]
+            const x as Number = 4;
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 188; @position = 18; @symbol_constdef = [y,188,18,19]; @symbol_type<0> = [Number,188,23,29]; ]
+            const y as Number = 92;
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 191; @symbol_moduledef = [prompt_size__body_no_title,191,15,41]; ]
+        module prompt_size__body_no_title {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 191; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 192; @position = 18; @symbol_constdef = [width,192,18,23]; @symbol_type<0> = [Float,192,27,32]; ]
+            const width as Float = 0.8;
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 193; @position = 18; @symbol_constdef = [height,193,18,24]; @symbol_type<0> = [Float,193,28,33]; ]
+            const height as Float = 0.8;
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 196; @symbol_moduledef = [system_icon_light__hint_button_left_top,196,15,54]; ]
+        module system_icon_light__hint_button_left_top {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 196; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 197; @position = 18; @symbol_constdef = [filename,197,18,26]; @symbol_type<0> = [String,197,30,36]; ]
+            const filename as String = "C:\\Users\\vidlight\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr255sm\\system_icon_light__hint_button_left_top.svg";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 198; @position = 18; @symbol_constdef = [dithering,198,18,27]; @symbol_type<0> = [String,198,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 201; @symbol_moduledef = [prompt_color_light__background,201,15,45]; ]
+        module prompt_color_light__background {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 201; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 202; @position = 18; @symbol_constdef = [color,202,18,23]; @symbol_type<0> = [Number,202,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 203; @position = 18; @symbol_constdef = [background,203,18,28]; @symbol_type<0> = [Number,203,32,38]; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 206; @symbol_moduledef = [confirmation_input__delete,206,15,41]; ]
+        module confirmation_input__delete {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 206; ]
+            <init> {
+[ "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen" 207 18 ]
+                symbol [ WatchUi %tmp.305 207 27 34 ];
+                %tmp.305 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.306 207 35 44 ];
+                %tmp.306 = getv %tmp.305 :KEY_ENTER;
+                putv self :button %tmp.306;
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 207; @position = 18; @symbol_constdef = [button,207,18,24]; ]
+            const button;
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 210; @symbol_moduledef = [system_icon_dark__hint_button_left_top,210,15,53]; ]
+        module system_icon_dark__hint_button_left_top {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 210; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 211; @position = 18; @symbol_constdef = [filename,211,18,26]; @symbol_type<0> = [String,211,30,36]; ]
+            const filename as String = "C:\\Users\\vidlight\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr255sm\\system_icon_dark__hint_button_left_top.svg";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 212; @position = 18; @symbol_constdef = [dithering,212,18,27]; @symbol_type<0> = [String,212,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 215; @symbol_moduledef = [system_input__action_menu,215,15,40]; ]
+        module system_input__action_menu {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 215; ]
+            <init> {
+[ "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen" 216 18 ]
+                symbol [ WatchUi %tmp.307 216 27 34 ];
+                %tmp.307 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.308 216 35 44 ];
+                %tmp.308 = getv %tmp.307 :KEY_ENTER;
+                putv self :button %tmp.308;
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 216; @position = 18; @symbol_constdef = [button,216,18,24]; ]
+            const button;
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 219; @symbol_moduledef = [system_icon_light__save,219,15,38]; ]
+        module system_icon_light__save {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 219; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 220; @position = 18; @symbol_constdef = [filename,220,18,26]; @symbol_type<0> = [String,220,30,36]; ]
+            const filename as String = "C:\\Users\\vidlight\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr255sm\\system_icon_light__save.svg";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 221; @position = 18; @symbol_constdef = [dithering,221,18,27]; @symbol_type<0> = [String,221,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 224; @symbol_moduledef = [prompt_color_light__body,224,15,39]; ]
+        module prompt_color_light__body {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 224; ]
+            <init> {
+[ "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen" 226 18 ]
+                symbol [ Graphics %tmp.309 226 31 39 ];
+                %tmp.309 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.310 226 40 57 ];
+                %tmp.310 = getv %tmp.309 :COLOR_TRANSPARENT;
+                putv self :background %tmp.310;
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 225; @position = 18; @symbol_constdef = [color,225,18,23]; @symbol_type<0> = [Number,225,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 226; @position = 18; @symbol_constdef = [background,226,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 229; @symbol_moduledef = [system_loc__subwindow,229,15,36]; ]
+        module system_loc__subwindow {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 229; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 230; @position = 18; @symbol_constdef = [exclude,230,18,25]; @symbol_type<0> = [Boolean,230,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 233; @symbol_moduledef = [system_icon_light__warning,233,15,41]; ]
+        module system_icon_light__warning {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 233; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 234; @position = 18; @symbol_constdef = [filename,234,18,26]; @symbol_type<0> = [String,234,30,36]; ]
+            const filename as String = "C:\\Users\\vidlight\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr255sm\\system_icon_light__warning.svg";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 235; @position = 18; @symbol_constdef = [dithering,235,18,27]; @symbol_type<0> = [String,235,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 238; @symbol_moduledef = [confirmation_color_light__body,238,15,45]; ]
+        module confirmation_color_light__body {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 238; ]
+            <init> {
+[ "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen" 240 18 ]
+                symbol [ Graphics %tmp.311 240 31 39 ];
+                %tmp.311 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.312 240 40 57 ];
+                %tmp.312 = getv %tmp.311 :COLOR_TRANSPARENT;
+                putv self :background %tmp.312;
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 239; @position = 18; @symbol_constdef = [color,239,18,23]; @symbol_type<0> = [Number,239,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 240; @position = 18; @symbol_constdef = [background,240,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 243; @symbol_moduledef = [confirmation_icon_light__hint_keep,243,15,49]; ]
+        module confirmation_icon_light__hint_keep {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 243; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 244; @position = 18; @symbol_constdef = [filename,244,18,26]; @symbol_type<0> = [String,244,30,36]; ]
+            const filename as String = "C:\\Users\\vidlight\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr255sm\\confirmation_icon__hint_keep.svg";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 245; @position = 18; @symbol_constdef = [dithering,245,18,27]; @symbol_type<0> = [String,245,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 248; @symbol_moduledef = [activity_color_light__background,248,15,47]; ]
+        module activity_color_light__background {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 248; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 249; @position = 18; @symbol_constdef = [color,249,18,23]; @symbol_type<0> = [Number,249,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 250; @position = 18; @symbol_constdef = [background,250,18,28]; @symbol_type<0> = [Number,250,32,38]; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 253; @symbol_moduledef = [system_icon_positive__hint_button_right_top,253,15,58]; ]
+        module system_icon_positive__hint_button_right_top {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 253; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 254; @position = 18; @symbol_constdef = [filename,254,18,26]; @symbol_type<0> = [String,254,30,36]; ]
+            const filename as String = "C:\\Users\\vidlight\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr255sm\\system_icon_positive__hint_button_right_top.svg";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 255; @position = 18; @symbol_constdef = [dithering,255,18,27]; @symbol_type<0> = [String,255,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 258; @symbol_moduledef = [system_size__screen,258,15,34]; ]
+        module system_size__screen {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 258; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 259; @position = 18; @symbol_constdef = [width,259,18,23]; @symbol_type<0> = [Number,259,27,33]; ]
+            const width as Number = 218;
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 260; @position = 18; @symbol_constdef = [height,260,18,24]; @symbol_type<0> = [Number,260,28,34]; ]
+            const height as Number = 218;
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 263; @symbol_moduledef = [system_icon_destructive__hint_button_right_bottom,263,15,64]; ]
+        module system_icon_destructive__hint_button_right_bottom {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 263; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 264; @position = 18; @symbol_constdef = [filename,264,18,26]; @symbol_type<0> = [String,264,30,36]; ]
+            const filename as String = "C:\\Users\\vidlight\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr255sm\\system_icon_destructive__hint_button_right_bottom.svg";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 265; @position = 18; @symbol_constdef = [dithering,265,18,27]; @symbol_type<0> = [String,265,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 268; @symbol_moduledef = [system_color_light__background,268,15,45]; ]
+        module system_color_light__background {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 268; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 269; @position = 18; @symbol_constdef = [color,269,18,23]; @symbol_type<0> = [Number,269,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 270; @position = 18; @symbol_constdef = [background,270,18,28]; @symbol_type<0> = [Number,270,32,38]; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 273; @symbol_moduledef = [system_icon_destructive__hint_button_right_top,273,15,61]; ]
+        module system_icon_destructive__hint_button_right_top {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 273; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 274; @position = 18; @symbol_constdef = [filename,274,18,26]; @symbol_type<0> = [String,274,30,36]; ]
+            const filename as String = "C:\\Users\\vidlight\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr255sm\\system_icon_destructive__hint_button_right_top.svg";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 275; @position = 18; @symbol_constdef = [dithering,275,18,27]; @symbol_type<0> = [String,275,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 278; @symbol_moduledef = [confirmation_loc__hint_confirm,278,15,45]; ]
+        module confirmation_loc__hint_confirm {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 278; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 279; @position = 18; @symbol_constdef = [x,279,18,19]; @symbol_type<0> = [Number,279,23,29]; ]
+            const x as Number = 177;
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 280; @position = 18; @symbol_constdef = [y,280,18,19]; @symbol_type<0> = [Number,280,23,29]; ]
+            const y as Number = 45;
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 283; @symbol_moduledef = [activity_color_dark__text,283,15,40]; ]
+        module activity_color_dark__text {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 283; ]
+            <init> {
+[ "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen" 285 18 ]
+                symbol [ Graphics %tmp.313 285 31 39 ];
+                %tmp.313 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.314 285 40 57 ];
+                %tmp.314 = getv %tmp.313 :COLOR_TRANSPARENT;
+                putv self :background %tmp.314;
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 284; @position = 18; @symbol_constdef = [color,284,18,23]; @symbol_type<0> = [Number,284,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 285; @position = 18; @symbol_constdef = [background,285,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 288; @symbol_moduledef = [confirmation_input__keep,288,15,39]; ]
+        module confirmation_input__keep {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 288; ]
+            <init> {
+[ "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen" 289 18 ]
+                symbol [ WatchUi %tmp.315 289 27 34 ];
+                %tmp.315 = getm $.Toybox.WatchUi;
+                symbol [ KEY_DOWN %tmp.316 289 35 43 ];
+                %tmp.316 = getv %tmp.315 :KEY_DOWN;
+                putv self :button %tmp.316;
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 289; @position = 18; @symbol_constdef = [button,289,18,24]; ]
+            const button;
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 292; @symbol_moduledef = [prompt_loc__body_with_title,292,15,42]; ]
+        module prompt_loc__body_with_title {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 292; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 293; @position = 18; @symbol_constdef = [x,293,18,19]; @symbol_type<0> = [Float,293,23,28]; ]
+            const x as Float = 0.1;
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 294; @position = 18; @symbol_constdef = [y,294,18,19]; @symbol_type<0> = [Float,294,23,28]; ]
+            const y as Float = 0.3;
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 297; @symbol_moduledef = [system_icon_dark__search,297,15,39]; ]
+        module system_icon_dark__search {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 297; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 298; @position = 18; @symbol_constdef = [filename,298,18,26]; @symbol_type<0> = [String,298,30,36]; ]
+            const filename as String = "C:\\Users\\vidlight\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr255sm\\system_icon_dark__search.svg";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 299; @position = 18; @symbol_constdef = [compress,299,18,26]; @symbol_type<0> = [String,299,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 300; @position = 18; @symbol_constdef = [dithering,300,18,27]; @symbol_type<0> = [String,300,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 301; @position = 18; @symbol_constdef = [automaticPalette,301,18,34]; @symbol_type<0> = [String,301,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 304; @symbol_moduledef = [activity_color_light__text,304,15,41]; ]
+        module activity_color_light__text {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 304; ]
+            <init> {
+[ "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen" 306 18 ]
+                symbol [ Graphics %tmp.317 306 31 39 ];
+                %tmp.317 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.318 306 40 57 ];
+                %tmp.318 = getv %tmp.317 :COLOR_TRANSPARENT;
+                putv self :background %tmp.318;
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 305; @position = 18; @symbol_constdef = [color,305,18,23]; @symbol_type<0> = [Number,305,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 306; @position = 18; @symbol_constdef = [background,306,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 309; @symbol_moduledef = [confirmation_icon__hint_keep,309,15,43]; ]
+        module confirmation_icon__hint_keep {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 309; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 310; @position = 18; @symbol_constdef = [filename,310,18,26]; @symbol_type<0> = [String,310,30,36]; ]
+            const filename as String = "C:\\Users\\vidlight\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr255sm\\confirmation_icon__hint_keep.svg";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 311; @position = 18; @symbol_constdef = [dithering,311,18,27]; @symbol_type<0> = [String,311,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 314; @symbol_moduledef = [system_icon_dark__save,314,15,37]; ]
+        module system_icon_dark__save {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 314; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 315; @position = 18; @symbol_constdef = [filename,315,18,26]; @symbol_type<0> = [String,315,30,36]; ]
+            const filename as String = "C:\\Users\\vidlight\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr255sm\\system_icon_dark__save.svg";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 316; @position = 18; @symbol_constdef = [compress,316,18,26]; @symbol_type<0> = [String,316,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 317; @position = 18; @symbol_constdef = [dithering,317,18,27]; @symbol_type<0> = [String,317,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 318; @position = 18; @symbol_constdef = [automaticPalette,318,18,34]; @symbol_type<0> = [String,318,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 321; @symbol_moduledef = [system_icon_destructive__hint_button_left_middle,321,15,63]; ]
+        module system_icon_destructive__hint_button_left_middle {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 321; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 322; @position = 18; @symbol_constdef = [filename,322,18,26]; @symbol_type<0> = [String,322,30,36]; ]
+            const filename as String = "C:\\Users\\vidlight\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr255sm\\system_icon_destructive__hint_button_left_middle.svg";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 323; @position = 18; @symbol_constdef = [dithering,323,18,27]; @symbol_type<0> = [String,323,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 326; @symbol_moduledef = [system_icon_light__search,326,15,40]; ]
+        module system_icon_light__search {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 326; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 327; @position = 18; @symbol_constdef = [filename,327,18,26]; @symbol_type<0> = [String,327,30,36]; ]
+            const filename as String = "C:\\Users\\vidlight\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr255sm\\system_icon_light__search.svg";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 328; @position = 18; @symbol_constdef = [dithering,328,18,27]; @symbol_type<0> = [String,328,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 331; @symbol_moduledef = [system_icon_dark__hint_button_left_bottom,331,15,56]; ]
+        module system_icon_dark__hint_button_left_bottom {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 331; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 332; @position = 18; @symbol_constdef = [filename,332,18,26]; @symbol_type<0> = [String,332,30,36]; ]
+            const filename as String = "C:\\Users\\vidlight\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr255sm\\system_icon_dark__hint_button_left_bottom.svg";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 333; @position = 18; @symbol_constdef = [dithering,333,18,27]; @symbol_type<0> = [String,333,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 336; @symbol_moduledef = [system_icon_positive__hint_button_left_top,336,15,57]; ]
+        module system_icon_positive__hint_button_left_top {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 336; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 337; @position = 18; @symbol_constdef = [filename,337,18,26]; @symbol_type<0> = [String,337,30,36]; ]
+            const filename as String = "C:\\Users\\vidlight\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr255sm\\system_icon_positive__hint_button_left_top.svg";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 338; @position = 18; @symbol_constdef = [dithering,338,18,27]; @symbol_type<0> = [String,338,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 341; @symbol_moduledef = [system_loc__hint_button_right_bottom,341,15,51]; ]
+        module system_loc__hint_button_right_bottom {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 341; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 342; @position = 18; @symbol_constdef = [x,342,18,19]; @symbol_type<0> = [Number,342,23,29]; ]
+            const x as Number = 185;
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 343; @position = 18; @symbol_constdef = [y,343,18,19]; @symbol_type<0> = [Number,343,23,29]; ]
+            const y as Number = 144;
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 346; @symbol_moduledef = [confirmation_icon_dark__hint_reject,346,15,50]; ]
+        module confirmation_icon_dark__hint_reject {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 346; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 347; @position = 18; @symbol_constdef = [filename,347,18,26]; @symbol_type<0> = [String,347,30,36]; ]
+            const filename as String = "C:\\Users\\vidlight\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr255sm\\confirmation_icon__hint_reject.svg";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 348; @position = 18; @symbol_constdef = [dithering,348,18,27]; @symbol_type<0> = [String,348,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 351; @symbol_moduledef = [confirmation_color_dark__body,351,15,44]; ]
+        module confirmation_color_dark__body {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 351; ]
+            <init> {
+[ "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen" 353 18 ]
+                symbol [ Graphics %tmp.319 353 31 39 ];
+                %tmp.319 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.320 353 40 57 ];
+                %tmp.320 = getv %tmp.319 :COLOR_TRANSPARENT;
+                putv self :background %tmp.320;
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 352; @position = 18; @symbol_constdef = [color,352,18,23]; @symbol_type<0> = [Number,352,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 353; @position = 18; @symbol_constdef = [background,353,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 356; @symbol_moduledef = [confirmation_icon_light__hint_confirm,356,15,52]; ]
+        module confirmation_icon_light__hint_confirm {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 356; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 357; @position = 18; @symbol_constdef = [filename,357,18,26]; @symbol_type<0> = [String,357,30,36]; ]
+            const filename as String = "C:\\Users\\vidlight\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr255sm\\confirmation_icon__hint_completion.svg";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 358; @position = 18; @symbol_constdef = [dithering,358,18,27]; @symbol_type<0> = [String,358,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 361; @symbol_moduledef = [prompt_color_dark__title,361,15,39]; ]
+        module prompt_color_dark__title {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 361; ]
+            <init> {
+[ "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen" 363 18 ]
+                symbol [ Graphics %tmp.321 363 31 39 ];
+                %tmp.321 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.322 363 40 57 ];
+                %tmp.322 = getv %tmp.321 :COLOR_TRANSPARENT;
+                putv self :background %tmp.322;
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 362; @position = 18; @symbol_constdef = [color,362,18,23]; @symbol_type<0> = [Number,362,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 363; @position = 18; @symbol_constdef = [background,363,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 366; @symbol_moduledef = [system_icon_destructive__cancel,366,15,46]; ]
+        module system_icon_destructive__cancel {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 366; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 367; @position = 18; @symbol_constdef = [filename,367,18,26]; @symbol_type<0> = [String,367,30,36]; ]
+            const filename as String = "C:\\Users\\vidlight\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr255sm\\system_icon_destructive__cancel.svg";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 368; @position = 18; @symbol_constdef = [dithering,368,18,27]; @symbol_type<0> = [String,368,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 371; @symbol_moduledef = [system_icon_light__hint_button_right_bottom,371,15,58]; ]
+        module system_icon_light__hint_button_right_bottom {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 371; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 372; @position = 18; @symbol_constdef = [filename,372,18,26]; @symbol_type<0> = [String,372,30,36]; ]
+            const filename as String = "C:\\Users\\vidlight\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr255sm\\system_icon_light__hint_button_right_bottom.svg";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 373; @position = 18; @symbol_constdef = [dithering,373,18,27]; @symbol_type<0> = [String,373,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 376; @symbol_moduledef = [prompt_loc__title,376,15,32]; ]
+        module prompt_loc__title {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 376; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 377; @position = 18; @symbol_constdef = [x,377,18,19]; @symbol_type<0> = [Float,377,23,28]; ]
+            const x as Float = 0.1;
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 378; @position = 18; @symbol_constdef = [y,378,18,19]; @symbol_type<0> = [Float,378,23,28]; ]
+            const y as Float = 0.0731;
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 381; @symbol_moduledef = [confirmation_font_enhanced_readability__body,381,15,59]; ]
+        module confirmation_font_enhanced_readability__body {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 381; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 382; @position = 18; @symbol_constdef = [exclude,382,18,25]; @symbol_type<0> = [Boolean,382,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 385; @symbol_moduledef = [prompt_color_light__title,385,15,40]; ]
+        module prompt_color_light__title {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 385; ]
+            <init> {
+[ "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen" 387 18 ]
+                symbol [ Graphics %tmp.323 387 31 39 ];
+                %tmp.323 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.324 387 40 57 ];
+                %tmp.324 = getv %tmp.323 :COLOR_TRANSPARENT;
+                putv self :background %tmp.324;
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 386; @position = 18; @symbol_constdef = [color,386,18,23]; @symbol_type<0> = [Number,386,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 387; @position = 18; @symbol_constdef = [background,387,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 390; @symbol_moduledef = [system_icon_dark__hint_button_right_top,390,15,54]; ]
+        module system_icon_dark__hint_button_right_top {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 390; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 391; @position = 18; @symbol_constdef = [filename,391,18,26]; @symbol_type<0> = [String,391,30,36]; ]
+            const filename as String = "C:\\Users\\vidlight\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr255sm\\system_icon_dark__hint_button_right_top.svg";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 392; @position = 18; @symbol_constdef = [dithering,392,18,27]; @symbol_type<0> = [String,392,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 395; @symbol_moduledef = [system_icon_dark__hint_button_left_middle,395,15,56]; ]
+        module system_icon_dark__hint_button_left_middle {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 395; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 396; @position = 18; @symbol_constdef = [filename,396,18,26]; @symbol_type<0> = [String,396,30,36]; ]
+            const filename as String = "C:\\Users\\vidlight\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr255sm\\system_icon_dark__hint_button_left_middle.svg";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 397; @position = 18; @symbol_constdef = [dithering,397,18,27]; @symbol_type<0> = [String,397,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 400; @symbol_moduledef = [confirmation_icon_dark__hint_keep,400,15,48]; ]
+        module confirmation_icon_dark__hint_keep {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 400; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 401; @position = 18; @symbol_constdef = [filename,401,18,26]; @symbol_type<0> = [String,401,30,36]; ]
+            const filename as String = "C:\\Users\\vidlight\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr255sm\\confirmation_icon__hint_keep.svg";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 402; @position = 18; @symbol_constdef = [dithering,402,18,27]; @symbol_type<0> = [String,402,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 405; @symbol_moduledef = [system_icon_light__cancel,405,15,40]; ]
+        module system_icon_light__cancel {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 405; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 406; @position = 18; @symbol_constdef = [filename,406,18,26]; @symbol_type<0> = [String,406,30,36]; ]
+            const filename as String = "C:\\Users\\vidlight\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr255sm\\system_icon_light__cancel.svg";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 407; @position = 18; @symbol_constdef = [dithering,407,18,27]; @symbol_type<0> = [String,407,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 410; @symbol_moduledef = [confirmation_icon_light__hint_reject,410,15,51]; ]
+        module confirmation_icon_light__hint_reject {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 410; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 411; @position = 18; @symbol_constdef = [filename,411,18,26]; @symbol_type<0> = [String,411,30,36]; ]
+            const filename as String = "C:\\Users\\vidlight\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr255sm\\confirmation_icon__hint_reject.svg";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 412; @position = 18; @symbol_constdef = [dithering,412,18,27]; @symbol_type<0> = [String,412,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 415; @symbol_moduledef = [system_icon_light__about,415,15,39]; ]
+        module system_icon_light__about {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 415; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 416; @position = 18; @symbol_constdef = [filename,416,18,26]; @symbol_type<0> = [String,416,30,36]; ]
+            const filename as String = "C:\\Users\\vidlight\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr255sm\\system_icon_light__about.svg";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 417; @position = 18; @symbol_constdef = [dithering,417,18,27]; @symbol_type<0> = [String,417,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 420; @symbol_moduledef = [system_size__toast_icon,420,15,38]; ]
+        module system_size__toast_icon {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 420; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 421; @position = 18; @symbol_constdef = [scaleX,421,18,24]; @symbol_type<0> = [Number,421,28,34]; ]
+            const scaleX as Number = 21;
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 422; @position = 18; @symbol_constdef = [scaleY,422,18,24]; @symbol_type<0> = [Number,422,28,34]; ]
+            const scaleY as Number = 21;
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 423; @position = 18; @symbol_constdef = [scaleRelativeTo,423,18,33]; @symbol_type<0> = [String,423,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 426; @symbol_moduledef = [system_icon_dark__hint_button_right_middle,426,15,57]; ]
+        module system_icon_dark__hint_button_right_middle {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 426; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 427; @position = 18; @symbol_constdef = [exclude,427,18,25]; @symbol_type<0> = [Boolean,427,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 430; @symbol_moduledef = [confirmation_icon__hint_reject,430,15,45]; ]
+        module confirmation_icon__hint_reject {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 430; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 431; @position = 18; @symbol_constdef = [filename,431,18,26]; @symbol_type<0> = [String,431,30,36]; ]
+            const filename as String = "C:\\Users\\vidlight\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr255sm\\confirmation_icon__hint_reject.svg";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 432; @position = 18; @symbol_constdef = [dithering,432,18,27]; @symbol_type<0> = [String,432,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 435; @symbol_moduledef = [system_icon_light__hint_action_menu,435,15,50]; ]
+        module system_icon_light__hint_action_menu {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 435; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 436; @position = 18; @symbol_constdef = [filename,436,18,26]; @symbol_type<0> = [String,436,30,36]; ]
+            const filename as String = "C:\\Users\\vidlight\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr255sm\\system_icon_light__hint_button_right_top.svg";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 437; @position = 18; @symbol_constdef = [dithering,437,18,27]; @symbol_type<0> = [String,437,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 440; @symbol_moduledef = [system_icon_light__hint_button_right_middle,440,15,58]; ]
+        module system_icon_light__hint_button_right_middle {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 440; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 441; @position = 18; @symbol_constdef = [exclude,441,18,25]; @symbol_type<0> = [Boolean,441,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 444; @symbol_moduledef = [system_icon_destructive__hint_button_right_middle,444,15,64]; ]
+        module system_icon_destructive__hint_button_right_middle {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 444; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 445; @position = 18; @symbol_constdef = [exclude,445,18,25]; @symbol_type<0> = [Boolean,445,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 448; @symbol_moduledef = [confirmation_loc__hint_reject,448,15,44]; ]
+        module confirmation_loc__hint_reject {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 448; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 449; @position = 18; @symbol_constdef = [x,449,18,19]; @symbol_type<0> = [Number,449,23,29]; ]
+            const x as Number = 11;
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 450; @position = 18; @symbol_constdef = [y,450,18,19]; @symbol_type<0> = [Number,450,23,29]; ]
+            const y as Number = 145;
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 451; @position = 18; @symbol_constdef = [horizontalJustification,451,18,41]; @symbol_type<0> = [String,451,45,51]; ]
+            const horizontalJustification as String = "left";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 454; @symbol_moduledef = [confirmation_icon_dark__hint_delete,454,15,50]; ]
+        module confirmation_icon_dark__hint_delete {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 454; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 455; @position = 18; @symbol_constdef = [filename,455,18,26]; @symbol_type<0> = [String,455,30,36]; ]
+            const filename as String = "C:\\Users\\vidlight\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr255sm\\confirmation_icon__hint_delete.svg";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 456; @position = 18; @symbol_constdef = [dithering,456,18,27]; @symbol_type<0> = [String,456,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 459; @symbol_moduledef = [activity_color_dark__background,459,15,46]; ]
+        module activity_color_dark__background {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 459; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 460; @position = 18; @symbol_constdef = [color,460,18,23]; @symbol_type<0> = [Number,460,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 461; @position = 18; @symbol_constdef = [background,461,18,28]; @symbol_type<0> = [Number,461,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 464; @symbol_moduledef = [system_icon_light__hint_button_left_bottom,464,15,57]; ]
+        module system_icon_light__hint_button_left_bottom {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 464; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 465; @position = 18; @symbol_constdef = [filename,465,18,26]; @symbol_type<0> = [String,465,30,36]; ]
+            const filename as String = "C:\\Users\\vidlight\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr255sm\\system_icon_light__hint_button_left_bottom.svg";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 466; @position = 18; @symbol_constdef = [dithering,466,18,27]; @symbol_type<0> = [String,466,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 469; @symbol_moduledef = [system_icon_positive__hint_button_left_middle,469,15,60]; ]
+        module system_icon_positive__hint_button_left_middle {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 469; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 470; @position = 18; @symbol_constdef = [filename,470,18,26]; @symbol_type<0> = [String,470,30,36]; ]
+            const filename as String = "C:\\Users\\vidlight\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr255sm\\system_icon_positive__hint_button_left_middle.svg";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 471; @position = 18; @symbol_constdef = [dithering,471,18,27]; @symbol_type<0> = [String,471,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 474; @symbol_moduledef = [system_size__menu_icon,474,15,37]; ]
+        module system_size__menu_icon {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 474; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 475; @position = 18; @symbol_constdef = [scaleX,475,18,24]; @symbol_type<0> = [Number,475,28,34]; ]
+            const scaleX as Number = 40;
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 476; @position = 18; @symbol_constdef = [scaleY,476,18,24]; @symbol_type<0> = [Number,476,28,34]; ]
+            const scaleY as Number = 40;
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 477; @position = 18; @symbol_constdef = [scaleRelativeTo,477,18,33]; @symbol_type<0> = [String,477,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 480; @symbol_moduledef = [system_icon_destructive__warning,480,15,47]; ]
+        module system_icon_destructive__warning {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 480; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 481; @position = 18; @symbol_constdef = [filename,481,18,26]; @symbol_type<0> = [String,481,30,36]; ]
+            const filename as String = "C:\\Users\\vidlight\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr255sm\\system_icon_destructive__warning.svg";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 482; @position = 18; @symbol_constdef = [dithering,482,18,27]; @symbol_type<0> = [String,482,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 485; @symbol_moduledef = [system_loc__hint_button_right_middle,485,15,51]; ]
+        module system_loc__hint_button_right_middle {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 485; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 486; @position = 18; @symbol_constdef = [exclude,486,18,25]; @symbol_type<0> = [Boolean,486,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 489; @symbol_moduledef = [system_icon_dark__cancel,489,15,39]; ]
+        module system_icon_dark__cancel {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 489; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 490; @position = 18; @symbol_constdef = [filename,490,18,26]; @symbol_type<0> = [String,490,30,36]; ]
+            const filename as String = "C:\\Users\\vidlight\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr255sm\\system_icon_dark__cancel.svg";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 491; @position = 18; @symbol_constdef = [compress,491,18,26]; @symbol_type<0> = [String,491,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 492; @position = 18; @symbol_constdef = [dithering,492,18,27]; @symbol_type<0> = [String,492,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 493; @position = 18; @symbol_constdef = [automaticPalette,493,18,34]; @symbol_type<0> = [String,493,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 496; @symbol_moduledef = [prompt_size__body_with_title,496,15,43]; ]
+        module prompt_size__body_with_title {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 496; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 497; @position = 18; @symbol_constdef = [width,497,18,23]; @symbol_type<0> = [Float,497,27,32]; ]
+            const width as Float = 0.8;
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 498; @position = 18; @symbol_constdef = [height,498,18,24]; @symbol_type<0> = [Float,498,28,33]; ]
+            const height as Float = 0.6;
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 501; @symbol_moduledef = [system_loc__hint_button_right_top,501,15,48]; ]
+        module system_loc__hint_button_right_top {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 501; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 502; @position = 18; @symbol_constdef = [x,502,18,19]; @symbol_type<0> = [Number,502,23,29]; ]
+            const x as Number = 183;
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 503; @position = 18; @symbol_constdef = [y,503,18,19]; @symbol_type<0> = [Number,503,23,29]; ]
+            const y as Number = 35;
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 506; @symbol_moduledef = [system_color_light__text,506,15,39]; ]
+        module system_color_light__text {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 506; ]
+            <init> {
+[ "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen" 508 18 ]
+                symbol [ Graphics %tmp.325 508 31 39 ];
+                %tmp.325 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.326 508 40 57 ];
+                %tmp.326 = getv %tmp.325 :COLOR_TRANSPARENT;
+                putv self :background %tmp.326;
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 507; @position = 18; @symbol_constdef = [color,507,18,23]; @symbol_type<0> = [Number,507,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 508; @position = 18; @symbol_constdef = [background,508,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 511; @symbol_moduledef = [system_icon_light__check,511,15,39]; ]
+        module system_icon_light__check {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 511; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 512; @position = 18; @symbol_constdef = [filename,512,18,26]; @symbol_type<0> = [String,512,30,36]; ]
+            const filename as String = "C:\\Users\\vidlight\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr255sm\\system_icon_light__check.svg";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 513; @position = 18; @symbol_constdef = [dithering,513,18,27]; @symbol_type<0> = [String,513,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 516; @symbol_moduledef = [confirmation_input__reject,516,15,41]; ]
+        module confirmation_input__reject {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 516; ]
+            <init> {
+[ "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen" 517 18 ]
+                symbol [ WatchUi %tmp.327 517 27 34 ];
+                %tmp.327 = getm $.Toybox.WatchUi;
+                symbol [ KEY_DOWN %tmp.328 517 35 43 ];
+                %tmp.328 = getv %tmp.327 :KEY_DOWN;
+                putv self :button %tmp.328;
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 517; @position = 18; @symbol_constdef = [button,517,18,24]; ]
+            const button;
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 520; @symbol_moduledef = [system_icon_light__revert,520,15,40]; ]
+        module system_icon_light__revert {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 520; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 521; @position = 18; @symbol_constdef = [filename,521,18,26]; @symbol_type<0> = [String,521,30,36]; ]
+            const filename as String = "C:\\Users\\vidlight\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr255sm\\system_icon_light__revert.svg";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 522; @position = 18; @symbol_constdef = [dithering,522,18,27]; @symbol_type<0> = [String,522,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 525; @symbol_moduledef = [system_size__subwindow,525,15,37]; ]
+        module system_size__subwindow {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 525; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 526; @position = 18; @symbol_constdef = [exclude,526,18,25]; @symbol_type<0> = [Boolean,526,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 529; @symbol_moduledef = [system_icon_positive__hint_button_left_bottom,529,15,60]; ]
+        module system_icon_positive__hint_button_left_bottom {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 529; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 530; @position = 18; @symbol_constdef = [filename,530,18,26]; @symbol_type<0> = [String,530,30,36]; ]
+            const filename as String = "C:\\Users\\vidlight\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr255sm\\system_icon_positive__hint_button_left_bottom.svg";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 531; @position = 18; @symbol_constdef = [dithering,531,18,27]; @symbol_type<0> = [String,531,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 534; @symbol_moduledef = [system_icon_dark__check,534,15,38]; ]
+        module system_icon_dark__check {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 534; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 535; @position = 18; @symbol_constdef = [filename,535,18,26]; @symbol_type<0> = [String,535,30,36]; ]
+            const filename as String = "C:\\Users\\vidlight\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr255sm\\system_icon_dark__check.svg";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 536; @position = 18; @symbol_constdef = [compress,536,18,26]; @symbol_type<0> = [String,536,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 537; @position = 18; @symbol_constdef = [dithering,537,18,27]; @symbol_type<0> = [String,537,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 538; @position = 18; @symbol_constdef = [automaticPalette,538,18,34]; @symbol_type<0> = [String,538,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 541; @symbol_moduledef = [confirmation_loc__hint_keep,541,15,42]; ]
+        module confirmation_loc__hint_keep {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 541; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 542; @position = 18; @symbol_constdef = [x,542,18,19]; @symbol_type<0> = [Number,542,23,29]; ]
+            const x as Number = 11;
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 543; @position = 18; @symbol_constdef = [y,543,18,19]; @symbol_type<0> = [Number,543,23,29]; ]
+            const y as Number = 145;
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 544; @position = 18; @symbol_constdef = [horizontalJustification,544,18,41]; @symbol_type<0> = [String,544,45,51]; ]
+            const horizontalJustification as String = "left";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 547; @symbol_moduledef = [confirmation_loc__hint_delete,547,15,44]; ]
+        module confirmation_loc__hint_delete {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 547; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 548; @position = 18; @symbol_constdef = [x,548,18,19]; @symbol_type<0> = [Number,548,23,29]; ]
+            const x as Number = 177;
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 549; @position = 18; @symbol_constdef = [y,549,18,19]; @symbol_type<0> = [Number,549,23,29]; ]
+            const y as Number = 45;
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 552; @symbol_moduledef = [system_icon_positive__hint_action_menu,552,15,53]; ]
+        module system_icon_positive__hint_action_menu {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 552; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 553; @position = 18; @symbol_constdef = [filename,553,18,26]; @symbol_type<0> = [String,553,30,36]; ]
+            const filename as String = "C:\\Users\\vidlight\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr255sm\\system_icon_positive__hint_button_right_top.svg";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 554; @position = 18; @symbol_constdef = [dithering,554,18,27]; @symbol_type<0> = [String,554,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 557; @symbol_moduledef = [system_icon_positive__hint_button_right_middle,557,15,61]; ]
+        module system_icon_positive__hint_button_right_middle {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 557; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 558; @position = 18; @symbol_constdef = [exclude,558,18,25]; @symbol_type<0> = [Boolean,558,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 561; @symbol_moduledef = [system_icon_light__hint_button_left_middle,561,15,57]; ]
+        module system_icon_light__hint_button_left_middle {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 561; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 562; @position = 18; @symbol_constdef = [filename,562,18,26]; @symbol_type<0> = [String,562,30,36]; ]
+            const filename as String = "C:\\Users\\vidlight\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr255sm\\system_icon_light__hint_button_left_middle.svg";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 563; @position = 18; @symbol_constdef = [dithering,563,18,27]; @symbol_type<0> = [String,563,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 566; @symbol_moduledef = [system_icon_dark__hint_button_right_bottom,566,15,57]; ]
+        module system_icon_dark__hint_button_right_bottom {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 566; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 567; @position = 18; @symbol_constdef = [filename,567,18,26]; @symbol_type<0> = [String,567,30,36]; ]
+            const filename as String = "C:\\Users\\vidlight\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr255sm\\system_icon_dark__hint_button_right_bottom.svg";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 568; @position = 18; @symbol_constdef = [dithering,568,18,27]; @symbol_type<0> = [String,568,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 571; @symbol_moduledef = [system_icon_positive__hint_button_right_bottom,571,15,61]; ]
+        module system_icon_positive__hint_button_right_bottom {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 571; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 572; @position = 18; @symbol_constdef = [filename,572,18,26]; @symbol_type<0> = [String,572,30,36]; ]
+            const filename as String = "C:\\Users\\vidlight\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr255sm\\system_icon_positive__hint_button_right_bottom.svg";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 573; @position = 18; @symbol_constdef = [dithering,573,18,27]; @symbol_type<0> = [String,573,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 576; @symbol_moduledef = [system_icon_dark__revert,576,15,39]; ]
+        module system_icon_dark__revert {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 576; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 577; @position = 18; @symbol_constdef = [filename,577,18,26]; @symbol_type<0> = [String,577,30,36]; ]
+            const filename as String = "C:\\Users\\vidlight\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr255sm\\system_icon_dark__revert.svg";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 578; @position = 18; @symbol_constdef = [compress,578,18,26]; @symbol_type<0> = [String,578,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 579; @position = 18; @symbol_constdef = [dithering,579,18,27]; @symbol_type<0> = [String,579,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 580; @position = 18; @symbol_constdef = [automaticPalette,580,18,34]; @symbol_type<0> = [String,580,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 583; @symbol_moduledef = [confirmation_icon_light__hint_delete,583,15,51]; ]
+        module confirmation_icon_light__hint_delete {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 583; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 584; @position = 18; @symbol_constdef = [filename,584,18,26]; @symbol_type<0> = [String,584,30,36]; ]
+            const filename as String = "C:\\Users\\vidlight\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr255sm\\confirmation_icon__hint_delete.svg";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 585; @position = 18; @symbol_constdef = [dithering,585,18,27]; @symbol_type<0> = [String,585,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 588; @symbol_moduledef = [system_icon_dark__question,588,15,41]; ]
+        module system_icon_dark__question {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 588; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 589; @position = 18; @symbol_constdef = [filename,589,18,26]; @symbol_type<0> = [String,589,30,36]; ]
+            const filename as String = "C:\\Users\\vidlight\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr255sm\\system_icon_dark__question.svg";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 590; @position = 18; @symbol_constdef = [compress,590,18,26]; @symbol_type<0> = [String,590,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 591; @position = 18; @symbol_constdef = [dithering,591,18,27]; @symbol_type<0> = [String,591,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 592; @position = 18; @symbol_constdef = [automaticPalette,592,18,34]; @symbol_type<0> = [String,592,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 595; @symbol_moduledef = [system_icon_light__discard,595,15,41]; ]
+        module system_icon_light__discard {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 595; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 596; @position = 18; @symbol_constdef = [filename,596,18,26]; @symbol_type<0> = [String,596,30,36]; ]
+            const filename as String = "C:\\Users\\vidlight\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr255sm\\system_icon_light__discard.svg";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 597; @position = 18; @symbol_constdef = [dithering,597,18,27]; @symbol_type<0> = [String,597,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 600; @symbol_moduledef = [device_info,600,15,26]; ]
+        module device_info {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 600; ]
+            <init> {
+[ "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen" 602 18 ]
+                symbol [ Toybox %tmp.330 602 32 38 ];
+                %tmp.330 = getv ? :Toybox;
+                symbol [ System %tmp.331 602 39 45 ];
+                %tmp.331 = getv %tmp.330 :System;
+                symbol [ SCREEN_SHAPE_ROUND %tmp.332 602 46 64 ];
+                %tmp.332 = getv %tmp.331 :SCREEN_SHAPE_ROUND;
+                putv self :screenShape %tmp.332;
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 601; @position = 18; @symbol_constdef = [screenWidth,601,18,29]; @symbol_type<0> = [Number,601,33,39]; ]
+            const screenWidth as Number = 218;
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 602; @position = 18; @symbol_constdef = [screenShape,602,18,29]; ]
+            const screenShape;
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 603; @position = 18; @symbol_constdef = [hasNightMode,603,18,30]; @symbol_type<0> = [Boolean,603,34,41]; ]
+            const hasNightMode as Boolean = false;
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 604; @position = 18; @symbol_constdef = [hasGpu,604,18,24]; @symbol_type<0> = [Boolean,604,28,35]; ]
+            const hasGpu as Boolean = false;
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 605; @position = 18; @symbol_constdef = [screenHeight,605,18,30]; @symbol_type<0> = [Number,605,34,40]; ]
+            const screenHeight as Number = 218;
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 606; @position = 18; @symbol_constdef = [hasTouchScreen,606,18,32]; @symbol_type<0> = [Boolean,606,36,43]; ]
+            const hasTouchScreen as Boolean = true;
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 607; @position = 18; @symbol_constdef = [hasEnhancedReadabilityMode,607,18,44]; @symbol_type<0> = [Boolean,607,48,55]; ]
+            const hasEnhancedReadabilityMode as Boolean = false;
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 610; @symbol_moduledef = [confirmation_icon_dark__hint_confirm,610,15,51]; ]
+        module confirmation_icon_dark__hint_confirm {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 610; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 611; @position = 18; @symbol_constdef = [filename,611,18,26]; @symbol_type<0> = [String,611,30,36]; ]
+            const filename as String = "C:\\Users\\vidlight\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr255sm\\confirmation_icon__hint_completion.svg";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 612; @position = 18; @symbol_constdef = [dithering,612,18,27]; @symbol_type<0> = [String,612,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 615; @symbol_moduledef = [prompt_font__body_no_title,615,15,41]; ]
+        module prompt_font__body_no_title {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 615; ]
+            <init> {
+[ "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen" 616 18 ]
+                symbol [ Graphics %tmp.333 616 34 42 ];
+                %tmp.333 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.334 616 43 62 ];
+                %tmp.334 = getv %tmp.333 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.335 616 63 71 ];
+                %tmp.335 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.336 616 72 92 ];
+                %tmp.336 = getv %tmp.335 :TEXT_JUSTIFY_VCENTER;
+                %tmp.337 = bitor %tmp.334 %tmp.336;
+                putv self :justification %tmp.337;
+[ "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen" 617 18 ]
+                symbol [ Graphics %tmp.338 617 25 33 ];
+                %tmp.338 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.339 617 34 43 ];
+                %tmp.339 = getv %tmp.338 :FONT_TINY;
+                putv self :font %tmp.339;
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 616; @position = 18; @symbol_constdef = [justification,616,18,31]; ]
+            const justification;
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 617; @position = 18; @symbol_constdef = [font,617,18,22]; ]
+            const font;
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 620; @symbol_moduledef = [prompt_size__title_icon,620,15,38]; ]
+        module prompt_size__title_icon {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 620; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 621; @position = 18; @symbol_constdef = [scaleX,621,18,24]; @symbol_type<0> = [Float,621,28,33]; ]
+            const scaleX as Float = 0.1539;
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 622; @position = 18; @symbol_constdef = [scaleRelativeTo,622,18,33]; @symbol_type<0> = [String,622,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 625; @symbol_moduledef = [system_icon_dark__warning,625,15,40]; ]
+        module system_icon_dark__warning {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 625; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 626; @position = 18; @symbol_constdef = [filename,626,18,26]; @symbol_type<0> = [String,626,30,36]; ]
+            const filename as String = "C:\\Users\\vidlight\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr255sm\\system_icon_dark__warning.svg";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 627; @position = 18; @symbol_constdef = [compress,627,18,26]; @symbol_type<0> = [String,627,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 628; @position = 18; @symbol_constdef = [dithering,628,18,27]; @symbol_type<0> = [String,628,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 629; @position = 18; @symbol_constdef = [automaticPalette,629,18,34]; @symbol_type<0> = [String,629,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 632; @symbol_moduledef = [prompt_loc__title_icon,632,15,37]; ]
+        module prompt_loc__title_icon {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 632; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 633; @position = 18; @symbol_constdef = [x,633,18,19]; @symbol_type<0> = [Float,633,23,28]; ]
+            const x as Float = 0.5;
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 634; @position = 18; @symbol_constdef = [y,634,18,19]; @symbol_type<0> = [Float,634,23,28]; ]
+            const y as Float = 0.15;
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 635; @position = 18; @symbol_constdef = [horizontalJustification,635,18,41]; @symbol_type<0> = [String,635,45,51]; ]
+            const horizontalJustification as String = "center";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 636; @position = 18; @symbol_constdef = [verticalJustification,636,18,39]; @symbol_type<0> = [String,636,43,49]; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 639; @symbol_moduledef = [prompt_font_enhanced_readability__title,639,15,54]; ]
+        module prompt_font_enhanced_readability__title {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 639; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 640; @position = 18; @symbol_constdef = [exclude,640,18,25]; @symbol_type<0> = [Boolean,640,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 643; @symbol_moduledef = [prompt_color_dark__body,643,15,38]; ]
+        module prompt_color_dark__body {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 643; ]
+            <init> {
+[ "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen" 645 18 ]
+                symbol [ Graphics %tmp.340 645 31 39 ];
+                %tmp.340 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.341 645 40 57 ];
+                %tmp.341 = getv %tmp.340 :COLOR_TRANSPARENT;
+                putv self :background %tmp.341;
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 644; @position = 18; @symbol_constdef = [color,644,18,23]; @symbol_type<0> = [Number,644,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 645; @position = 18; @symbol_constdef = [background,645,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 648; @symbol_moduledef = [confirmation_icon__hint_delete,648,15,45]; ]
+        module confirmation_icon__hint_delete {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 648; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 649; @position = 18; @symbol_constdef = [filename,649,18,26]; @symbol_type<0> = [String,649,30,36]; ]
+            const filename as String = "C:\\Users\\vidlight\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr255sm\\confirmation_icon__hint_delete.svg";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 650; @position = 18; @symbol_constdef = [dithering,650,18,27]; @symbol_type<0> = [String,650,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 653; @symbol_moduledef = [system_icon_light__hint_button_right_top,653,15,55]; ]
+        module system_icon_light__hint_button_right_top {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 653; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 654; @position = 18; @symbol_constdef = [filename,654,18,26]; @symbol_type<0> = [String,654,30,36]; ]
+            const filename as String = "C:\\Users\\vidlight\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr255sm\\system_icon_light__hint_button_right_top.svg";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 655; @position = 18; @symbol_constdef = [dithering,655,18,27]; @symbol_type<0> = [String,655,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 658; @symbol_moduledef = [confirmation_size__body,658,15,38]; ]
+        module confirmation_size__body {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 658; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 659; @position = 18; @symbol_constdef = [width,659,18,23]; @symbol_type<0> = [Float,659,27,32]; ]
+            const width as Float = 0.6;
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 660; @position = 18; @symbol_constdef = [height,660,18,24]; @symbol_type<0> = [Float,660,28,33]; ]
+            const height as Float = 0.6;
+        }
+        [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 663; @symbol_moduledef = [system_icon_positive__check,663,15,42]; ]
+        module system_icon_positive__check {
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 663; ]
+            <init> {
+            }
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 664; @position = 18; @symbol_constdef = [filename,664,18,26]; @symbol_type<0> = [String,664,30,36]; ]
+            const filename as String = "C:\\Users\\vidlight\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fr255sm\\system_icon_positive__check.svg";
+            [ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 665; @position = 18; @symbol_constdef = [dithering,665,18,27]; @symbol_type<0> = [String,665,31,37]; ]
+            const dithering as String = "none";
+        }
+    }
+}
+[ @file = "c:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\bin\gen\006-B3991-00\source\Rez.mcgen"; @line = 1; ]
+<init> {
+}

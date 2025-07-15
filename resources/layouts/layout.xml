@@ -1,0 +1,11 @@
+<layout id="WatchFace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+    <drawable class="Background" />
+    <label id="TimeLabel" x="35%" y="15%" font="Graphics.FONT_LARGE" color="Graphics.COLOR_BLACK"/>
+    <label id="SecondsLabel" x="64%" y="17%" font="Graphics.FONT_XTINY" color="Graphics.COLOR_BLACK"/>
+    <label id="DateLabel" x="33%" y="27%" font="Graphics.FONT_XTINY" color="Graphics.COLOR_BLACK"/>
+    <!-- <drawable id="HeartIcon" class="HeartIcon"/> -->
+    <bitmap id="HeartIcon" filename="../drawables/images/heart_icon.png" x="75%" y="40%"/>
+    <label id="HeartRateLabel" x="77%" y="50%" font="Graphics.FONT_SMALL" color="Graphics.COLOR_RED"/>
+    <bitmap id="StepsIcon" filename="../drawables/images/footsteps.png" x="20%" y="40%" />
+    <!-- <label id="StepsLabel" x="23%" y="50%" font="Graphics.FONT_SMALL" color="Graphics.COLOR_RED"/> -->
+</layout>
