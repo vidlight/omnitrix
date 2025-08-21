@@ -1,34 +1,36 @@
-[ @file = "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Application,1,14,25]; ]
+[ @file = "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Application,1,14,25]; ]
 import Toybox.Application;
-[ @file = "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Graphics,2,14,22]; ]
+[ @file = "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Graphics,2,14,22]; ]
 import Toybox.Graphics;
-[ @file = "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [Lang,3,14,18]; ]
+[ @file = "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [Lang,3,14,18]; ]
 import Toybox.Lang;
-[ @file = "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc"; @line = 4; @symbol_importdef<0> = [Toybox,4,7,13]; @symbol_importdef<1> = [System,4,14,20]; ]
+[ @file = "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc"; @line = 4; @symbol_importdef<0> = [Toybox,4,7,13]; @symbol_importdef<1> = [System,4,14,20]; ]
 import Toybox.System;
-[ @file = "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc"; @line = 5; @symbol_importdef<0> = [Toybox,5,7,13]; @symbol_importdef<1> = [WatchUi,5,14,21]; ]
+[ @file = "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc"; @line = 5; @symbol_importdef<0> = [Toybox,5,7,13]; @symbol_importdef<1> = [WatchUi,5,14,21]; ]
 import Toybox.WatchUi;
-[ @file = "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc"; @line = 6; @symbol_importdef<0> = [Toybox,6,7,13]; @symbol_importdef<1> = [Activity,6,14,22]; ]
+[ @file = "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc"; @line = 6; @symbol_importdef<0> = [Toybox,6,7,13]; @symbol_importdef<1> = [Activity,6,14,22]; ]
 import Toybox.Activity;
-[ @file = "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc"; @line = 7; @symbol_importdef<0> = [Toybox,7,7,13]; @symbol_importdef<1> = [Time,7,14,18]; ]
+[ @file = "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc"; @line = 7; @symbol_importdef<0> = [Toybox,7,7,13]; @symbol_importdef<1> = [Time,7,14,18]; ]
 import Toybox.Time;
-[ @file = "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc"; @line = 9; @symbol_classdef = [omnitrixView,9,6,18]; @symbol_extends<0> = [WatchUi,9,27,34]; @symbol_extends<1> = [WatchFace,9,35,44]; ]
+[ @file = "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc"; @line = 8; @symbol_importdef<0> = [Toybox,8,7,13]; @symbol_importdef<1> = [ActivityMonitor,8,14,29]; ]
+import Toybox.ActivityMonitor;
+[ @file = "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc"; @line = 10; @symbol_classdef = [omnitrixView,10,6,18]; @symbol_extends<0> = [WatchUi,10,27,34]; @symbol_extends<1> = [WatchFace,10,35,44]; ]
 class omnitrixView extends WatchUi.WatchFace {
-    [ @file = "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc"; @line = 9; ]
+    [ @file = "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc"; @line = 10; ]
     <init> {
     }
-    [ @file = "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc"; @line = 9; ]
+    [ @file = "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc"; @line = 10; ]
     static
     <init> {
     }
-    [ @file = "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc"; @line = 11; @symbol_functiondef = [getDayOfWeek,11,21,33]; @symbol_param<0> = [now,11,34,37]; ]
+    [ @file = "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc"; @line = 12; @symbol_functiondef = [getDayOfWeek,12,21,33]; @symbol_param<0> = [now,12,34,37]; ]
     private
     function getDayOfWeek(now) {
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_11_39_14_4_start:
-[ "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc" 12 8 ]
-        [ "C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_11_39_14_4_start" "C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_11_39_14_4_stop" ]
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_12_39_15_4_start:
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 13 8 ]
+        [ "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_12_39_15_4_start" "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_12_39_15_4_stop" ]
         %dayNames.1 = local;
-        symbol [ dayNames %dayNames.1 12 12 20 ];
+        symbol [ dayNames %dayNames.1 13 12 20 ];
         %tmp.1 = newa 7;
         %tmp.2 = "Sunday";
         %tmp.3 = dup %tmp.1;
@@ -52,13 +54,13 @@ C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView
         %tmp.21 = dup %tmp.19;
         %tmp.22 = aputv %tmp.21 6 %tmp.20;
         lputv %dayNames.1 %tmp.22;
-        symbol [ dayNames %dayNames.1 12 12 20 ];
-[ "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc" 13 8 ]
+        symbol [ dayNames %dayNames.1 13 12 20 ];
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 14 8 ]
         %tmp.23 = lgetv %dayNames.1;
-        symbol [ dayNames %tmp.23 13 15 23 ];
+        symbol [ dayNames %tmp.23 14 15 23 ];
         %tmp.24 = lgetv %now;
-        symbol [ now %tmp.24 13 26 29 ];
-        symbol [ value %tmp.25 13 30 35 ];
+        symbol [ now %tmp.24 14 26 29 ];
+        symbol [ value %tmp.25 14 30 35 ];
         %tmp.25 = getv %tmp.24 :value;
         %tmp.26 = 86400;
         %tmp.27 = div %tmp.25 %tmp.26;
@@ -68,159 +70,159 @@ C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView
         %tmp.31 = mod %tmp.29 %tmp.30;
         %tmp.32 = agetv %tmp.23 %tmp.31;
         ret %tmp.32;
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_11_39_14_4_stop:
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_12_39_15_4_stop:
     }
-    [ @file = "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc"; @line = 16; @symbol_functiondef = [initialize,16,13,23]; ]
+    [ @file = "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc"; @line = 17; @symbol_functiondef = [initialize,17,13,23]; ]
     function initialize() as Void {
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_16_26_18_4_start:
-[ "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc" 17 8 ]
-        symbol [ WatchFace %tmp.2 17 8 17 ];
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_17_26_19_4_start:
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 18 8 ]
+        symbol [ WatchFace %tmp.2 18 8 17 ];
         %tmp.2 = getv ? :WatchFace;
-        symbol [ initialize %tmp.3 17 18 28 ];
+        symbol [ initialize %tmp.3 18 18 28 ];
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_16_26_18_4_stop:
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_17_26_19_4_stop:
     }
-    [ @file = "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc"; @line = 21; @symbol_functiondef = [onLayout,21,13,21]; @symbol_param<0> = [dc,21,22,24]; @symbol_param<0>_type<0> = [Dc,21,28,30]; ]
+    [ @file = "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc"; @line = 22; @symbol_functiondef = [onLayout,22,13,21]; @symbol_param<0> = [dc,22,22,24]; @symbol_param<0>_type<0> = [Dc,22,28,30]; ]
     function onLayout(dc as Dc) as Void {
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_21_40_23_4_start:
-[ "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc" 22 8 ]
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_22_40_24_4_start:
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 23 8 ]
         %tmp.1 = self;
-        symbol [ setLayout %tmp.2 22 8 17 ];
+        symbol [ setLayout %tmp.2 23 8 17 ];
         %tmp.2 = getv function %tmp.1 :setLayout;
-        symbol [ Rez %tmp.4 22 18 21 ];
+        symbol [ Rez %tmp.4 23 18 21 ];
         %tmp.4 = getv ? :Rez;
-        symbol [ Layouts %tmp.5 22 22 29 ];
+        symbol [ Layouts %tmp.5 23 22 29 ];
         %tmp.5 = getv %tmp.4 :Layouts;
-        symbol [ WatchFace %tmp.6 22 30 39 ];
+        symbol [ WatchFace %tmp.6 23 30 39 ];
         %tmp.6 = getv function %tmp.5 :WatchFace;
         %tmp.7 = lgetv %dc;
-        symbol [ dc %tmp.7 22 40 42 ];
+        symbol [ dc %tmp.7 23 40 42 ];
         %tmp.8 = invoke %tmp.5 %tmp.6(%tmp.7);
         invoke %tmp.1 %tmp.2(%tmp.8);
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_21_40_23_4_stop:
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_22_40_24_4_stop:
     }
-    [ @file = "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc"; @line = 28; @symbol_functiondef = [onShow,28,13,19]; ]
+    [ @file = "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc"; @line = 29; @symbol_functiondef = [onShow,29,13,19]; ]
     function onShow() as Void {
     }
-    [ @file = "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc"; @line = 32; @symbol_functiondef = [onUpdate,32,13,21]; @symbol_param<0> = [dc,32,22,24]; @symbol_param<0>_type<0> = [Dc,32,28,30]; ]
+    [ @file = "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc"; @line = 33; @symbol_functiondef = [onUpdate,33,13,21]; @symbol_param<0> = [dc,33,22,24]; @symbol_param<0>_type<0> = [Dc,33,28,30]; ]
     function onUpdate(dc as Dc) as Void {
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_32_40_112_4_start:
-[ "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc" 34 8 ]
-        [ "C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_32_40_112_4_start" "C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_32_40_112_4_stop" ]
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_start:
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 35 8 ]
+        [ "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_start" "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_stop" ]
         %timeFormat.1 = local;
-        symbol [ timeFormat %timeFormat.1 34 12 22 ];
+        symbol [ timeFormat %timeFormat.1 35 12 22 ];
         %tmp.1 = "$1$:$2$";
         lputv %timeFormat.1 %tmp.1;
-        symbol [ timeFormat %timeFormat.1 34 12 22 ];
-[ "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc" 35 8 ]
-        [ "C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_32_40_112_4_start" "C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_32_40_112_4_stop" ]
+        symbol [ timeFormat %timeFormat.1 35 12 22 ];
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 36 8 ]
+        [ "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_start" "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_stop" ]
         %clockTime.2 = local;
-        symbol [ clockTime %clockTime.2 35 12 21 ];
-        symbol [ System %tmp.2 35 24 30 ];
+        symbol [ clockTime %clockTime.2 36 12 21 ];
+        symbol [ System %tmp.2 36 24 30 ];
         %tmp.2 = getm $.Toybox.System;
-        symbol [ getClockTime %tmp.3 35 31 43 ];
+        symbol [ getClockTime %tmp.3 36 31 43 ];
         %tmp.3 = getv function %tmp.2 :getClockTime;
         %tmp.4 = invoke %tmp.2 %tmp.3();
         lputv %clockTime.2 %tmp.4;
-        symbol [ clockTime %clockTime.2 35 12 21 ];
-[ "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc" 36 8 ]
-        [ "C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_32_40_112_4_start" "C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_32_40_112_4_stop" ]
+        symbol [ clockTime %clockTime.2 36 12 21 ];
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 37 8 ]
+        [ "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_start" "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_stop" ]
         %hours.3 = local;
-        symbol [ hours %hours.3 36 12 17 ];
+        symbol [ hours %hours.3 37 12 17 ];
         %tmp.5 = lgetv %clockTime.2;
-        symbol [ clockTime %tmp.5 36 20 29 ];
-        symbol [ hour %tmp.6 36 30 34 ];
+        symbol [ clockTime %tmp.5 37 20 29 ];
+        symbol [ hour %tmp.6 37 30 34 ];
         %tmp.6 = getv %tmp.5 :hour;
         lputv %hours.3 %tmp.6;
-        symbol [ hours %hours.3 36 12 17 ];
-[ "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc" 37 8 ]
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_37_8_46_8_if_stmt:
-        symbol [ System %tmp.7 37 13 19 ];
+        symbol [ hours %hours.3 37 12 17 ];
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 38 8 ]
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_38_8_47_8_if_stmt:
+        symbol [ System %tmp.7 38 13 19 ];
         %tmp.7 = getm $.Toybox.System;
-        symbol [ getDeviceSettings %tmp.8 37 20 37 ];
+        symbol [ getDeviceSettings %tmp.8 38 20 37 ];
         %tmp.8 = getv function %tmp.7 :getDeviceSettings;
         %tmp.9 = invoke %tmp.7 %tmp.8();
-        symbol [ is24Hour %tmp.10 37 40 48 ];
+        symbol [ is24Hour %tmp.10 38 40 48 ];
         %tmp.10 = getv %tmp.9 :is24Hour;
         %tmp.11 = not %tmp.10;
-        bf %tmp.11 @C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_37_8_46_8_if_else_false;
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_37_8_46_8_if_true:
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_37_50_41_8_start:
-[ "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc" 38 12 ]
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_38_12_40_12_if_stmt:
+        bf %tmp.11 @_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_38_8_47_8_if_else_false;
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_38_8_47_8_if_true:
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_38_50_42_8_start:
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 39 12 ]
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_39_12_41_12_if_stmt:
         %tmp.12 = lgetv %hours.3;
-        symbol [ hours %tmp.12 38 16 21 ];
+        symbol [ hours %tmp.12 39 16 21 ];
         %tmp.13 = 12;
         %tmp.14 = gt %tmp.12 %tmp.13;
-        bf %tmp.14 @C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_38_12_40_12_if_end;
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_38_12_40_12_if_true:
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_38_28_40_12_start:
-[ "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc" 39 16 ]
+        bf %tmp.14 @_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_39_12_41_12_if_end;
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_39_12_41_12_if_true:
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_39_28_41_12_start:
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 40 16 ]
         %tmp.15 = lgetv %hours.3;
-        symbol [ hours %tmp.15 39 24 29 ];
+        symbol [ hours %tmp.15 40 24 29 ];
         %tmp.16 = 12;
         %tmp.17 = sub %tmp.15 %tmp.16;
         lputv %hours.3 %tmp.17;
-        symbol [ hours %hours.3 39 16 21 ];
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_38_28_40_12_stop:
-        goto @C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_38_12_40_12_if_end;
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_38_12_40_12_if_end:
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_37_50_41_8_stop:
-        goto @C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_37_8_46_8_if_end;
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_37_8_46_8_if_else_false:
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_41_15_46_8_start:
-[ "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc" 42 12 ]
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_42_12_45_12_if_stmt:
-        symbol [ Application %tmp.18 42 16 27 ];
+        symbol [ hours %hours.3 40 16 21 ];
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_39_28_41_12_stop:
+        goto @_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_39_12_41_12_if_end;
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_39_12_41_12_if_end:
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_38_50_42_8_stop:
+        goto @_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_38_8_47_8_if_end;
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_38_8_47_8_if_else_false:
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_42_15_47_8_start:
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 43 12 ]
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_43_12_46_12_if_stmt:
+        symbol [ Application %tmp.18 43 16 27 ];
         %tmp.18 = getm $.Toybox.Application;
-        symbol [ Properties %tmp.19 42 28 38 ];
+        symbol [ Properties %tmp.19 43 28 38 ];
         %tmp.19 = getv %tmp.18 :Properties;
-        symbol [ getValue %tmp.20 42 39 47 ];
+        symbol [ getValue %tmp.20 43 39 47 ];
         %tmp.20 = getv function %tmp.19 :getValue;
         %tmp.21 = "UseMilitaryFormat";
         %tmp.22 = invoke %tmp.19 %tmp.20(%tmp.21);
-        bf %tmp.22 @C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_42_12_45_12_if_end;
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_42_12_45_12_if_true:
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_42_70_45_12_start:
-[ "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc" 43 16 ]
+        bf %tmp.22 @_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_43_12_46_12_if_end;
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_43_12_46_12_if_true:
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_43_70_46_12_start:
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 44 16 ]
         %tmp.23 = "$1$$2$";
         lputv %timeFormat.1 %tmp.23;
-        symbol [ timeFormat %timeFormat.1 43 16 26 ];
-[ "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc" 44 16 ]
+        symbol [ timeFormat %timeFormat.1 44 16 26 ];
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 45 16 ]
         %tmp.24 = lgetv %hours.3;
-        symbol [ hours %tmp.24 44 24 29 ];
-        symbol [ format %tmp.25 44 30 36 ];
+        symbol [ hours %tmp.24 45 24 29 ];
+        symbol [ format %tmp.25 45 30 36 ];
         %tmp.25 = getv function %tmp.24 :format;
         %tmp.26 = "%02d";
         %tmp.27 = invoke %tmp.24 %tmp.25(%tmp.26);
         lputv %hours.3 %tmp.27;
-        symbol [ hours %hours.3 44 16 21 ];
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_42_70_45_12_stop:
-        goto @C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_42_12_45_12_if_end;
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_42_12_45_12_if_end:
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_41_15_46_8_stop:
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_37_8_46_8_if_end:
-[ "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc" 47 8 ]
-        [ "C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_32_40_112_4_start" "C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_32_40_112_4_stop" ]
+        symbol [ hours %hours.3 45 16 21 ];
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_43_70_46_12_stop:
+        goto @_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_43_12_46_12_if_end;
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_43_12_46_12_if_end:
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_42_15_47_8_stop:
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_38_8_47_8_if_end:
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 48 8 ]
+        [ "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_start" "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_stop" ]
         %timeString.4 = local;
-        symbol [ timeString %timeString.4 47 12 22 ];
-        symbol [ Lang %tmp.28 47 25 29 ];
+        symbol [ timeString %timeString.4 48 12 22 ];
+        symbol [ Lang %tmp.28 48 25 29 ];
         %tmp.28 = getm $.Toybox.Lang;
-        symbol [ format %tmp.29 47 30 36 ];
+        symbol [ format %tmp.29 48 30 36 ];
         %tmp.29 = getv function %tmp.28 :format;
         %tmp.30 = lgetv %timeFormat.1;
-        symbol [ timeFormat %tmp.30 47 37 47 ];
+        symbol [ timeFormat %tmp.30 48 37 47 ];
         %tmp.31 = newa 2;
         %tmp.32 = lgetv %hours.3;
-        symbol [ hours %tmp.32 47 50 55 ];
+        symbol [ hours %tmp.32 48 50 55 ];
         %tmp.33 = dup %tmp.31;
         %tmp.34 = aputv %tmp.33 0 %tmp.32;
         %tmp.35 = lgetv %clockTime.2;
-        symbol [ clockTime %tmp.35 47 57 66 ];
-        symbol [ min %tmp.36 47 67 70 ];
+        symbol [ clockTime %tmp.35 48 57 66 ];
+        symbol [ min %tmp.36 48 67 70 ];
         %tmp.36 = getv %tmp.35 :min;
-        symbol [ format %tmp.37 47 71 77 ];
+        symbol [ format %tmp.37 48 71 77 ];
         %tmp.37 = getv function %tmp.36 :format;
         %tmp.38 = "%02d";
         %tmp.39 = invoke %tmp.36 %tmp.37(%tmp.38);
@@ -228,567 +230,749 @@ C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView
         %tmp.41 = aputv %tmp.40 1 %tmp.39;
         %tmp.42 = invoke %tmp.28 %tmp.29(%tmp.30, %tmp.41);
         lputv %timeString.4 %tmp.42;
-        symbol [ timeString %timeString.4 47 12 22 ];
-[ "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc" 48 8 ]
-        [ "C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_32_40_112_4_start" "C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_32_40_112_4_stop" ]
+        symbol [ timeString %timeString.4 48 12 22 ];
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 49 8 ]
+        [ "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_start" "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_stop" ]
         %secondsString.5 = local;
-        symbol [ secondsString %secondsString.5 48 12 25 ];
+        symbol [ secondsString %secondsString.5 49 12 25 ];
         %tmp.43 = lgetv %clockTime.2;
-        symbol [ clockTime %tmp.43 48 28 37 ];
-        symbol [ sec %tmp.44 48 38 41 ];
+        symbol [ clockTime %tmp.43 49 28 37 ];
+        symbol [ sec %tmp.44 49 38 41 ];
         %tmp.44 = getv %tmp.43 :sec;
-        symbol [ format %tmp.45 48 42 48 ];
+        symbol [ format %tmp.45 49 42 48 ];
         %tmp.45 = getv function %tmp.44 :format;
         %tmp.46 = "%02d";
         %tmp.47 = invoke %tmp.44 %tmp.45(%tmp.46);
         lputv %secondsString.5 %tmp.47;
-        symbol [ secondsString %secondsString.5 48 12 25 ];
-[ "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc" 51 8 ]
-        [ "C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_32_40_112_4_start" "C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_32_40_112_4_stop" ]
+        symbol [ secondsString %secondsString.5 49 12 25 ];
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 52 8 ]
+        [ "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_start" "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_stop" ]
         %today.6 = local;
-        symbol [ today %today.6 51 12 17 ];
-        symbol [ Time %tmp.48 51 20 24 ];
+        symbol [ today %today.6 52 12 17 ];
+        symbol [ Time %tmp.48 52 20 24 ];
         %tmp.48 = getm $.Toybox.Time;
-        symbol [ Gregorian %tmp.49 51 25 34 ];
+        symbol [ Gregorian %tmp.49 52 25 34 ];
         %tmp.49 = getv %tmp.48 :Gregorian;
-        symbol [ info %tmp.50 51 35 39 ];
+        symbol [ info %tmp.50 52 35 39 ];
         %tmp.50 = getv function %tmp.49 :info;
-        symbol [ Time %tmp.51 51 40 44 ];
+        symbol [ Time %tmp.51 52 40 44 ];
         %tmp.51 = getm $.Toybox.Time;
-        symbol [ now %tmp.52 51 45 48 ];
+        symbol [ now %tmp.52 52 45 48 ];
         %tmp.52 = getv function %tmp.51 :now;
         %tmp.53 = invoke %tmp.51 %tmp.52();
-        symbol [ Time %tmp.54 51 52 56 ];
+        symbol [ Time %tmp.54 52 52 56 ];
         %tmp.54 = getm $.Toybox.Time;
-        symbol [ FORMAT_MEDIUM %tmp.55 51 57 70 ];
+        symbol [ FORMAT_MEDIUM %tmp.55 52 57 70 ];
         %tmp.55 = getv %tmp.54 :FORMAT_MEDIUM;
         %tmp.56 = invoke %tmp.49 %tmp.50(%tmp.53, %tmp.55);
         lputv %today.6 %tmp.56;
-        symbol [ today %today.6 51 12 17 ];
-[ "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc" 52 8 ]
-        [ "C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_32_40_112_4_start" "C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_32_40_112_4_stop" ]
+        symbol [ today %today.6 52 12 17 ];
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 53 8 ]
+        [ "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_start" "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_stop" ]
         %dateString.7 = local;
-        symbol [ dateString %dateString.7 52 12 22 ];
-        symbol [ Lang %tmp.57 52 25 29 ];
+        symbol [ dateString %dateString.7 53 12 22 ];
+        symbol [ Lang %tmp.57 53 25 29 ];
         %tmp.57 = getm $.Toybox.Lang;
-        symbol [ format %tmp.58 52 30 36 ];
+        symbol [ format %tmp.58 53 30 36 ];
         %tmp.58 = getv function %tmp.57 :format;
         %tmp.59 = "$1$ $2$, $3$";
         %tmp.60 = newa 3;
         %tmp.61 = lgetv %today.6;
-        symbol [ today %tmp.61 52 54 59 ];
-        symbol [ day_of_week %tmp.62 52 60 71 ];
+        symbol [ today %tmp.61 53 54 59 ];
+        symbol [ day_of_week %tmp.62 53 60 71 ];
         %tmp.62 = getv %tmp.61 :day_of_week;
         %tmp.63 = dup %tmp.60;
         %tmp.64 = aputv %tmp.63 0 %tmp.62;
         %tmp.65 = lgetv %today.6;
-        symbol [ today %tmp.65 52 73 78 ];
-        symbol [ day %tmp.66 52 79 82 ];
+        symbol [ today %tmp.65 53 73 78 ];
+        symbol [ day %tmp.66 53 79 82 ];
         %tmp.66 = getv %tmp.65 :day;
-        symbol [ format %tmp.67 52 83 89 ];
+        symbol [ format %tmp.67 53 83 89 ];
         %tmp.67 = getv function %tmp.66 :format;
         %tmp.68 = "%02d";
         %tmp.69 = invoke %tmp.66 %tmp.67(%tmp.68);
         %tmp.70 = dup %tmp.64;
         %tmp.71 = aputv %tmp.70 1 %tmp.69;
         %tmp.72 = lgetv %today.6;
-        symbol [ today %tmp.72 52 99 104 ];
-        symbol [ year %tmp.73 52 105 109 ];
+        symbol [ today %tmp.72 53 99 104 ];
+        symbol [ year %tmp.73 53 105 109 ];
         %tmp.73 = getv %tmp.72 :year;
         %tmp.74 = dup %tmp.71;
         %tmp.75 = aputv %tmp.74 2 %tmp.73;
         %tmp.76 = invoke %tmp.57 %tmp.58(%tmp.59, %tmp.75);
         lputv %dateString.7 %tmp.76;
-        symbol [ dateString %dateString.7 52 12 22 ];
-[ "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc" 55 8 ]
-        [ "C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_32_40_112_4_start" "C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_32_40_112_4_stop" ]
-        %width.8 = local;
-        symbol [ width %width.8 55 12 17 ];
-        %tmp.77 = lgetv %dc;
-        symbol [ dc %tmp.77 55 20 22 ];
-        symbol [ getWidth %tmp.78 55 23 31 ];
-        %tmp.78 = getv function %tmp.77 :getWidth;
-        %tmp.79 = invoke %tmp.77 %tmp.78();
-        lputv %width.8 %tmp.79;
-        symbol [ width %width.8 55 12 17 ];
-[ "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc" 56 8 ]
-        [ "C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_32_40_112_4_start" "C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_32_40_112_4_stop" ]
-        %height.9 = local;
-        symbol [ height %height.9 56 12 18 ];
-        %tmp.80 = lgetv %dc;
-        symbol [ dc %tmp.80 56 21 23 ];
-        symbol [ getHeight %tmp.81 56 24 33 ];
-        %tmp.81 = getv function %tmp.80 :getHeight;
-        %tmp.82 = invoke %tmp.80 %tmp.81();
-        lputv %height.9 %tmp.82;
-        symbol [ height %height.9 56 12 18 ];
-[ "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc" 57 8 ]
-        [ "C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_32_40_112_4_start" "C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_32_40_112_4_stop" ]
-        %centerX.10 = local;
-        symbol [ centerX %centerX.10 57 12 19 ];
-        %tmp.83 = lgetv %width.8;
-        symbol [ width %tmp.83 57 22 27 ];
-        %tmp.84 = 2;
-        %tmp.85 = div %tmp.83 %tmp.84;
-        lputv %centerX.10 %tmp.85;
-        symbol [ centerX %centerX.10 57 12 19 ];
-[ "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc" 58 8 ]
-        [ "C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_32_40_112_4_start" "C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_32_40_112_4_stop" ]
-        %centerY.11 = local;
-        symbol [ centerY %centerY.11 58 12 19 ];
-        %tmp.86 = lgetv %height.9;
-        symbol [ height %tmp.86 58 22 28 ];
-        %tmp.87 = 2;
-        %tmp.88 = div %tmp.86 %tmp.87;
-        lputv %centerY.11 %tmp.88;
-        symbol [ centerY %centerY.11 58 12 19 ];
-[ "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc" 59 8 ]
-        [ "C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_32_40_112_4_start" "C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_32_40_112_4_stop" ]
-        %circleRadius.12 = local;
-        symbol [ circleRadius %circleRadius.12 59 12 24 ];
-        %tmp.89 = lgetv %width.8;
-        symbol [ width %tmp.89 59 27 32 ];
-        %tmp.90 = 0.18;
-        %tmp.91 = mul %tmp.89 %tmp.90;
-        lputv %circleRadius.12 %tmp.91;
-        symbol [ circleRadius %circleRadius.12 59 12 24 ];
-[ "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc" 60 8 ]
-        [ "C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_32_40_112_4_start" "C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_32_40_112_4_stop" ]
-        %circleX.13 = local;
-        symbol [ circleX %circleX.13 60 12 19 ];
-        %tmp.92 = lgetv %centerX.10;
-        symbol [ centerX %tmp.92 60 22 29 ];
-        %tmp.93 = lgetv %width.8;
-        symbol [ width %tmp.93 60 32 37 ];
-        %tmp.94 = 0.25;
-        %tmp.95 = mul %tmp.93 %tmp.94;
-        %tmp.96 = add %tmp.92 %tmp.95;
-        lputv %circleX.13 %tmp.96;
-        symbol [ circleX %circleX.13 60 12 19 ];
-[ "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc" 61 8 ]
-        [ "C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_32_40_112_4_start" "C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_32_40_112_4_stop" ]
-        %circleY.14 = local;
-        symbol [ circleY %circleY.14 61 12 19 ];
-        %tmp.97 = lgetv %centerY.11;
-        symbol [ centerY %tmp.97 61 22 29 ];
-        lputv %circleY.14 %tmp.97;
-        symbol [ circleY %circleY.14 61 12 19 ];
-[ "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc" 63 8 ]
-        [ "C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_32_40_112_4_start" "C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_32_40_112_4_stop" ]
-        %hr.15 = local;
-        symbol [ hr %hr.15 63 12 14 ];
-        %tmp.98 = null;
-        lputv %hr.15 %tmp.98;
-        symbol [ hr %hr.15 63 12 14 ];
-[ "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc" 64 8 ]
-        [ "C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_32_40_112_4_start" "C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_32_40_112_4_stop" ]
-        %zoneColor.16 = local;
-        symbol [ zoneColor %zoneColor.16 64 12 21 ];
-        symbol [ Graphics %tmp.99 64 24 32 ];
-        %tmp.99 = getm $.Toybox.Graphics;
-        symbol [ COLOR_WHITE %tmp.100 64 33 44 ];
-        %tmp.100 = getv %tmp.99 :COLOR_WHITE;
-        lputv %zoneColor.16 %tmp.100;
-        symbol [ zoneColor %zoneColor.16 64 12 21 ];
-[ "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc" 65 8 ]
-        [ "C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_32_40_112_4_start" "C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_32_40_112_4_stop" ]
-        %activity.17 = local;
-        symbol [ activity %activity.17 65 12 20 ];
-        symbol [ Activity %tmp.101 65 23 31 ];
-        %tmp.101 = getm $.Toybox.Activity;
-        symbol [ getActivityInfo %tmp.102 65 32 47 ];
-        %tmp.102 = getv function %tmp.101 :getActivityInfo;
-        %tmp.103 = invoke %tmp.101 %tmp.102();
-        lputv %activity.17 %tmp.103;
-        symbol [ activity %activity.17 65 12 20 ];
-[ "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc" 66 8 ]
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_66_8_82_8_if_stmt:
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_66_12_66_61_begin:
-        %tmp.104 = lgetv %activity.17;
-        symbol [ activity %tmp.104 66 12 20 ];
-        %tmp.105 = null;
-        %tmp.106 = ne %tmp.104 %tmp.105;
-        bf %tmp.106 @C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_66_8_82_8_if_end;
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_66_32_66_61_true:
-        %tmp.107 = lgetv %activity.17;
-        symbol [ activity %tmp.107 66 32 40 ];
-        %tmp.108 = as %tmp.107 { (!Null) };
-        symbol [ currentHeartRate %tmp.109 66 41 57 ];
-        %tmp.109 = getv %tmp.108 :currentHeartRate;
+        symbol [ dateString %dateString.7 53 12 22 ];
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 56 8 ]
+        [ "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_start" "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_stop" ]
+        %timeLabel.8 = local;
+        symbol [ timeLabel %timeLabel.8 56 12 21 ];
+        symbol [ View %tmp.78 56 24 28 ];
+        %tmp.78 = getv ? :View;
+        symbol [ findDrawableById %tmp.79 56 29 45 ];
+        %tmp.79 = getv function %tmp.78 :findDrawableById;
+        %tmp.80 = "TimeLabel";
+        %tmp.81 = invoke %tmp.78 %tmp.79(%tmp.80);
+        %tmp.82 = as %tmp.81 WatchUi.Text;
+        symbol [ WatchUi %tmp.82 56 62 69 ];
+        symbol [ Text %tmp.82 56 70 74 ];
+        lputv %timeLabel.8 %tmp.82;
+        symbol [ timeLabel %timeLabel.8 56 12 21 ];
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 57 8 ]
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_57_8_57_64_if_stmt:
+        %tmp.83 = lgetv %timeLabel.8;
+        symbol [ timeLabel %tmp.83 57 12 21 ];
+        %tmp.84 = null;
+        %tmp.85 = ne %tmp.83 %tmp.84;
+        bf %tmp.85 @_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_57_8_57_64_if_end;
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_57_8_57_64_if_true:
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_57_31_57_64_start:
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 57 33 ]
+        %tmp.86 = lgetv %timeLabel.8;
+        symbol [ timeLabel %tmp.86 57 33 42 ];
+        %tmp.87 = as %tmp.86 { (!Null) };
+        symbol [ setText %tmp.88 57 43 50 ];
+        %tmp.88 = getv function %tmp.87 :setText;
+        %tmp.89 = lgetv %timeString.4;
+        symbol [ timeString %tmp.89 57 51 61 ];
+        invoke %tmp.87 %tmp.88(%tmp.89);
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_57_31_57_64_stop:
+        goto @_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_57_8_57_64_if_end;
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_57_8_57_64_if_end:
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 59 8 ]
+        [ "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_start" "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_stop" ]
+        %secondsLabel.9 = local;
+        symbol [ secondsLabel %secondsLabel.9 59 12 24 ];
+        symbol [ View %tmp.91 59 27 31 ];
+        %tmp.91 = getv ? :View;
+        symbol [ findDrawableById %tmp.92 59 32 48 ];
+        %tmp.92 = getv function %tmp.91 :findDrawableById;
+        %tmp.93 = "SecondsLabel";
+        %tmp.94 = invoke %tmp.91 %tmp.92(%tmp.93);
+        %tmp.95 = as %tmp.94 WatchUi.Text;
+        symbol [ WatchUi %tmp.95 59 68 75 ];
+        symbol [ Text %tmp.95 59 76 80 ];
+        lputv %secondsLabel.9 %tmp.95;
+        symbol [ secondsLabel %secondsLabel.9 59 12 24 ];
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 60 8 ]
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_60_8_60_73_if_stmt:
+        %tmp.96 = lgetv %secondsLabel.9;
+        symbol [ secondsLabel %tmp.96 60 12 24 ];
+        %tmp.97 = null;
+        %tmp.98 = ne %tmp.96 %tmp.97;
+        bf %tmp.98 @_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_60_8_60_73_if_end;
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_60_8_60_73_if_true:
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_60_34_60_73_start:
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 60 36 ]
+        %tmp.99 = lgetv %secondsLabel.9;
+        symbol [ secondsLabel %tmp.99 60 36 48 ];
+        %tmp.100 = as %tmp.99 { (!Null) };
+        symbol [ setText %tmp.101 60 49 56 ];
+        %tmp.101 = getv function %tmp.100 :setText;
+        %tmp.102 = lgetv %secondsString.5;
+        symbol [ secondsString %tmp.102 60 57 70 ];
+        invoke %tmp.100 %tmp.101(%tmp.102);
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_60_34_60_73_stop:
+        goto @_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_60_8_60_73_if_end;
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_60_8_60_73_if_end:
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 62 8 ]
+        [ "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_start" "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_stop" ]
+        %dateLabel.10 = local;
+        symbol [ dateLabel %dateLabel.10 62 12 21 ];
+        symbol [ View %tmp.104 62 24 28 ];
+        %tmp.104 = getv ? :View;
+        symbol [ findDrawableById %tmp.105 62 29 45 ];
+        %tmp.105 = getv function %tmp.104 :findDrawableById;
+        %tmp.106 = "DateLabel";
+        %tmp.107 = invoke %tmp.104 %tmp.105(%tmp.106);
+        %tmp.108 = as %tmp.107 WatchUi.Text;
+        symbol [ WatchUi %tmp.108 62 62 69 ];
+        symbol [ Text %tmp.108 62 70 74 ];
+        lputv %dateLabel.10 %tmp.108;
+        symbol [ dateLabel %dateLabel.10 62 12 21 ];
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 63 8 ]
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_63_8_63_64_if_stmt:
+        %tmp.109 = lgetv %dateLabel.10;
+        symbol [ dateLabel %tmp.109 63 12 21 ];
         %tmp.110 = null;
         %tmp.111 = ne %tmp.109 %tmp.110;
-        push %tmp.111;
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_66_32_66_61_end:
-        %tmp.112 = phi [%tmp.106 @C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_66_12_66_61_begin] [%tmp.111 @C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_66_32_66_61_true] [%tmp.112 @C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_66_32_66_61_end];
-        bf %tmp.112 @C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_66_8_82_8_if_end;
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_66_8_82_8_if_true:
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_66_67_82_8_start:
-[ "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc" 67 12 ]
-        %tmp.113 = lgetv %activity.17;
-        symbol [ activity %tmp.113 67 17 25 ];
-        %tmp.114 = as %tmp.113 { (!Null) };
-        symbol [ currentHeartRate %tmp.115 67 26 42 ];
-        %tmp.115 = getv %tmp.114 :currentHeartRate;
-        lputv %hr.15 %tmp.115;
-        symbol [ hr %hr.15 67 12 14 ];
-[ "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc" 69 12 ]
-        [ "C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_66_67_82_8_start" "C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_66_67_82_8_stop" ]
-        %maxHr.18 = local;
-        symbol [ maxHr %maxHr.18 69 16 21 ];
-        %tmp.116 = 225;
-        lputv %maxHr.18 %tmp.116;
-        symbol [ maxHr %maxHr.18 69 16 21 ];
-[ "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc" 70 12 ]
-        [ "C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_66_67_82_8_start" "C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_66_67_82_8_stop" ]
-        %percent.19 = local;
-        symbol [ percent %percent.19 70 16 23 ];
-        %tmp.117 = lgetv %hr.15;
-        symbol [ hr %tmp.117 70 27 29 ];
-        %tmp.118 = 100;
-        %tmp.119 = mul %tmp.117 %tmp.118;
-        %tmp.120 = lgetv %maxHr.18;
-        symbol [ maxHr %tmp.120 70 39 44 ];
-        %tmp.121 = div %tmp.119 %tmp.120;
-        lputv %percent.19 %tmp.121;
-        symbol [ percent %percent.19 70 16 23 ];
-[ "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc" 71 12 ]
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_71_12_81_12_if_stmt:
-        %tmp.122 = lgetv %percent.19;
-        symbol [ percent %tmp.122 71 16 23 ];
-        %tmp.123 = 60;
-        %tmp.124 = lt %tmp.122 %tmp.123;
-        bf %tmp.124 @C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_71_12_81_12_if_false;
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_71_12_81_12_if_true:
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_71_30_73_12_start:
-[ "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc" 72 16 ]
-        symbol [ Graphics %tmp.125 72 28 36 ];
-        %tmp.125 = getm $.Toybox.Graphics;
-        symbol [ COLOR_BLUE %tmp.126 72 37 47 ];
-        %tmp.126 = getv %tmp.125 :COLOR_BLUE;
-        lputv %zoneColor.16 %tmp.126;
-        symbol [ zoneColor %zoneColor.16 72 16 25 ];
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_71_30_73_12_stop:
-        goto @C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_71_12_81_12_if_end;
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_71_12_81_12_if_false:
-[ "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc" 73 19 ]
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_73_19_81_12_if_stmt:
-        %tmp.127 = lgetv %percent.19;
-        symbol [ percent %tmp.127 73 23 30 ];
-        %tmp.128 = 70;
-        %tmp.129 = lt %tmp.127 %tmp.128;
-        bf %tmp.129 @C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_73_19_81_12_if_false;
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_73_19_81_12_if_true:
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_73_37_75_12_start:
-[ "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc" 74 16 ]
-        symbol [ Graphics %tmp.130 74 28 36 ];
-        %tmp.130 = getm $.Toybox.Graphics;
-        symbol [ COLOR_GREEN %tmp.131 74 37 48 ];
-        %tmp.131 = getv %tmp.130 :COLOR_GREEN;
-        lputv %zoneColor.16 %tmp.131;
-        symbol [ zoneColor %zoneColor.16 74 16 25 ];
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_73_37_75_12_stop:
-        goto @C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_73_19_81_12_if_end;
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_73_19_81_12_if_false:
-[ "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc" 75 19 ]
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_75_19_81_12_if_stmt:
-        %tmp.132 = lgetv %percent.19;
-        symbol [ percent %tmp.132 75 23 30 ];
-        %tmp.133 = 80;
-        %tmp.134 = lt %tmp.132 %tmp.133;
-        bf %tmp.134 @C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_75_19_81_12_if_false;
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_75_19_81_12_if_true:
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_75_37_77_12_start:
-[ "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc" 76 16 ]
-        symbol [ Graphics %tmp.135 76 28 36 ];
-        %tmp.135 = getm $.Toybox.Graphics;
-        symbol [ COLOR_YELLOW %tmp.136 76 37 49 ];
-        %tmp.136 = getv %tmp.135 :COLOR_YELLOW;
-        lputv %zoneColor.16 %tmp.136;
-        symbol [ zoneColor %zoneColor.16 76 16 25 ];
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_75_37_77_12_stop:
-        goto @C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_75_19_81_12_if_end;
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_75_19_81_12_if_false:
-[ "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc" 77 19 ]
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_77_19_81_12_if_stmt:
-        %tmp.137 = lgetv %percent.19;
-        symbol [ percent %tmp.137 77 23 30 ];
-        %tmp.138 = 90;
-        %tmp.139 = lt %tmp.137 %tmp.138;
-        bf %tmp.139 @C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_77_19_81_12_if_else_false;
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_77_19_81_12_if_true:
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_77_37_79_12_start:
-[ "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc" 78 16 ]
-        symbol [ Graphics %tmp.140 78 28 36 ];
-        %tmp.140 = getm $.Toybox.Graphics;
-        symbol [ COLOR_ORANGE %tmp.141 78 37 49 ];
-        %tmp.141 = getv %tmp.140 :COLOR_ORANGE;
-        lputv %zoneColor.16 %tmp.141;
-        symbol [ zoneColor %zoneColor.16 78 16 25 ];
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_77_37_79_12_stop:
-        goto @C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_77_19_81_12_if_end;
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_77_19_81_12_if_else_false:
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_79_19_81_12_start:
-[ "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc" 80 16 ]
-        symbol [ Graphics %tmp.142 80 28 36 ];
-        %tmp.142 = getm $.Toybox.Graphics;
-        symbol [ COLOR_RED %tmp.143 80 37 46 ];
-        %tmp.143 = getv %tmp.142 :COLOR_RED;
-        lputv %zoneColor.16 %tmp.143;
-        symbol [ zoneColor %zoneColor.16 80 16 25 ];
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_79_19_81_12_stop:
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_77_19_81_12_if_end:
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_75_19_81_12_if_end:
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_73_19_81_12_if_end:
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_71_12_81_12_if_end:
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_66_67_82_8_stop:
-        goto @C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_66_8_82_8_if_end;
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_66_8_82_8_if_end:
-[ "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc" 85 8 ]
-        %tmp.144 = lgetv %dc;
-        symbol [ dc %tmp.144 85 8 10 ];
-        symbol [ setColor %tmp.145 85 11 19 ];
-        %tmp.145 = getv function %tmp.144 :setColor;
-        symbol [ Graphics %tmp.146 85 20 28 ];
-        %tmp.146 = getm $.Toybox.Graphics;
-        symbol [ COLOR_DK_GRAY %tmp.147 85 29 42 ];
-        %tmp.147 = getv %tmp.146 :COLOR_DK_GRAY;
-        symbol [ Graphics %tmp.148 85 44 52 ];
-        %tmp.148 = getm $.Toybox.Graphics;
-        symbol [ COLOR_DK_GRAY %tmp.149 85 53 66 ];
-        %tmp.149 = getv %tmp.148 :COLOR_DK_GRAY;
-        invoke %tmp.144 %tmp.145(%tmp.147, %tmp.149);
-[ "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc" 86 8 ]
-        %tmp.150 = lgetv %dc;
-        symbol [ dc %tmp.150 86 8 10 ];
-        symbol [ fillCircle %tmp.151 86 11 21 ];
-        %tmp.151 = getv function %tmp.150 :fillCircle;
-        %tmp.152 = lgetv %circleX.13;
-        symbol [ circleX %tmp.152 86 22 29 ];
-        %tmp.153 = lgetv %circleY.14;
-        symbol [ circleY %tmp.153 86 31 38 ];
-        %tmp.154 = lgetv %circleRadius.12;
-        symbol [ circleRadius %tmp.154 86 40 52 ];
-        invoke %tmp.150 %tmp.151(%tmp.152, %tmp.153, %tmp.154);
-[ "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc" 89 8 ]
-        [ "C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_32_40_112_4_start" "C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_32_40_112_4_stop" ]
-        %timeLabel.20 = local;
-        symbol [ timeLabel %timeLabel.20 89 12 21 ];
-        symbol [ View %tmp.156 89 24 28 ];
-        %tmp.156 = getv ? :View;
-        symbol [ findDrawableById %tmp.157 89 29 45 ];
-        %tmp.157 = getv function %tmp.156 :findDrawableById;
-        %tmp.158 = "TimeLabel";
-        %tmp.159 = invoke %tmp.156 %tmp.157(%tmp.158);
-        %tmp.160 = as %tmp.159 WatchUi.Text;
-        symbol [ WatchUi %tmp.160 89 62 69 ];
-        symbol [ Text %tmp.160 89 70 74 ];
-        lputv %timeLabel.20 %tmp.160;
-        symbol [ timeLabel %timeLabel.20 89 12 21 ];
-[ "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc" 90 8 ]
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_90_8_90_64_if_stmt:
-        %tmp.161 = lgetv %timeLabel.20;
-        symbol [ timeLabel %tmp.161 90 12 21 ];
-        %tmp.162 = null;
-        %tmp.163 = ne %tmp.161 %tmp.162;
-        bf %tmp.163 @C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_90_8_90_64_if_end;
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_90_8_90_64_if_true:
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_90_31_90_64_start:
-[ "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc" 90 33 ]
-        %tmp.164 = lgetv %timeLabel.20;
-        symbol [ timeLabel %tmp.164 90 33 42 ];
-        %tmp.165 = as %tmp.164 { (!Null) };
-        symbol [ setText %tmp.166 90 43 50 ];
-        %tmp.166 = getv function %tmp.165 :setText;
-        %tmp.167 = lgetv %timeString.4;
-        symbol [ timeString %tmp.167 90 51 61 ];
-        invoke %tmp.165 %tmp.166(%tmp.167);
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_90_31_90_64_stop:
-        goto @C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_90_8_90_64_if_end;
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_90_8_90_64_if_end:
-[ "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc" 92 8 ]
-        [ "C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_32_40_112_4_start" "C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_32_40_112_4_stop" ]
-        %secondsLabel.21 = local;
-        symbol [ secondsLabel %secondsLabel.21 92 12 24 ];
-        symbol [ View %tmp.169 92 27 31 ];
-        %tmp.169 = getv ? :View;
-        symbol [ findDrawableById %tmp.170 92 32 48 ];
-        %tmp.170 = getv function %tmp.169 :findDrawableById;
-        %tmp.171 = "SecondsLabel";
-        %tmp.172 = invoke %tmp.169 %tmp.170(%tmp.171);
-        %tmp.173 = as %tmp.172 WatchUi.Text;
-        symbol [ WatchUi %tmp.173 92 68 75 ];
-        symbol [ Text %tmp.173 92 76 80 ];
-        lputv %secondsLabel.21 %tmp.173;
-        symbol [ secondsLabel %secondsLabel.21 92 12 24 ];
-[ "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc" 93 8 ]
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_93_8_93_73_if_stmt:
-        %tmp.174 = lgetv %secondsLabel.21;
-        symbol [ secondsLabel %tmp.174 93 12 24 ];
-        %tmp.175 = null;
-        %tmp.176 = ne %tmp.174 %tmp.175;
-        bf %tmp.176 @C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_93_8_93_73_if_end;
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_93_8_93_73_if_true:
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_93_34_93_73_start:
-[ "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc" 93 36 ]
-        %tmp.177 = lgetv %secondsLabel.21;
-        symbol [ secondsLabel %tmp.177 93 36 48 ];
-        %tmp.178 = as %tmp.177 { (!Null) };
-        symbol [ setText %tmp.179 93 49 56 ];
-        %tmp.179 = getv function %tmp.178 :setText;
-        %tmp.180 = lgetv %secondsString.5;
-        symbol [ secondsString %tmp.180 93 57 70 ];
-        invoke %tmp.178 %tmp.179(%tmp.180);
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_93_34_93_73_stop:
-        goto @C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_93_8_93_73_if_end;
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_93_8_93_73_if_end:
-[ "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc" 95 8 ]
-        [ "C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_32_40_112_4_start" "C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_32_40_112_4_stop" ]
-        %dateLabel.22 = local;
-        symbol [ dateLabel %dateLabel.22 95 12 21 ];
-        symbol [ View %tmp.182 95 24 28 ];
-        %tmp.182 = getv ? :View;
-        symbol [ findDrawableById %tmp.183 95 29 45 ];
-        %tmp.183 = getv function %tmp.182 :findDrawableById;
-        %tmp.184 = "DateLabel";
-        %tmp.185 = invoke %tmp.182 %tmp.183(%tmp.184);
-        %tmp.186 = as %tmp.185 WatchUi.Text;
-        symbol [ WatchUi %tmp.186 95 62 69 ];
-        symbol [ Text %tmp.186 95 70 74 ];
-        lputv %dateLabel.22 %tmp.186;
-        symbol [ dateLabel %dateLabel.22 95 12 21 ];
-[ "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc" 96 8 ]
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_96_8_96_64_if_stmt:
-        %tmp.187 = lgetv %dateLabel.22;
-        symbol [ dateLabel %tmp.187 96 12 21 ];
-        %tmp.188 = null;
-        %tmp.189 = ne %tmp.187 %tmp.188;
-        bf %tmp.189 @C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_96_8_96_64_if_end;
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_96_8_96_64_if_true:
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_96_31_96_64_start:
-[ "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc" 96 33 ]
-        %tmp.190 = lgetv %dateLabel.22;
-        symbol [ dateLabel %tmp.190 96 33 42 ];
-        %tmp.191 = as %tmp.190 { (!Null) };
-        symbol [ setText %tmp.192 96 43 50 ];
-        %tmp.192 = getv function %tmp.191 :setText;
-        %tmp.193 = lgetv %dateString.7;
-        symbol [ dateString %tmp.193 96 51 61 ];
-        invoke %tmp.191 %tmp.192(%tmp.193);
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_96_31_96_64_stop:
-        goto @C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_96_8_96_64_if_end;
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_96_8_96_64_if_end:
-[ "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc" 98 8 ]
-        [ "C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_32_40_112_4_start" "C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_32_40_112_4_stop" ]
-        %heartRateLabel.23 = local;
-        symbol [ heartRateLabel %heartRateLabel.23 98 12 26 ];
-        symbol [ View %tmp.195 98 29 33 ];
-        %tmp.195 = getv ? :View;
-        symbol [ findDrawableById %tmp.196 98 34 50 ];
-        %tmp.196 = getv function %tmp.195 :findDrawableById;
-        %tmp.197 = "HeartRateLabel";
-        %tmp.198 = invoke %tmp.195 %tmp.196(%tmp.197);
-        %tmp.199 = as %tmp.198 WatchUi.Text;
-        symbol [ WatchUi %tmp.199 98 72 79 ];
-        symbol [ Text %tmp.199 98 80 84 ];
-        lputv %heartRateLabel.23 %tmp.199;
-        symbol [ heartRateLabel %heartRateLabel.23 98 12 26 ];
-[ "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc" 99 8 ]
-        [ "C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_32_40_112_4_start" "C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_32_40_112_4_stop" ]
-        %hrText.24 = local;
-        symbol [ hrText %hrText.24 99 12 18 ];
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_99_21_99_52_begin:
-        %tmp.200 = lgetv %hr.15;
-        symbol [ hr %tmp.200 99 22 24 ];
-        %tmp.201 = null;
-        %tmp.202 = ne %tmp.200 %tmp.201;
-        bf %tmp.202 @C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_99_21_99_52_false;
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_99_21_99_52_true:
-        %tmp.203 = lgetv %hr.15;
-        symbol [ hr %tmp.203 99 36 38 ];
-        %tmp.204 = as %tmp.203 { (!Null) };
-        symbol [ toString %tmp.205 99 39 47 ];
-        %tmp.205 = getv function %tmp.204 :toString;
-        %tmp.206 = invoke %tmp.204 %tmp.205();
-        push %tmp.206;
-        goto @C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_99_21_99_52_end;
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_99_21_99_52_false:
-        %tmp.207 = "--";
-        push %tmp.207;
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_99_21_99_52_end:
-        %tmp.208 = phi [%tmp.202 @C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_99_21_99_52_begin] [%tmp.206 @C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_99_21_99_52_true] [%tmp.207 @C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_99_21_99_52_false] [%tmp.208 @C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_99_21_99_52_end];
-        lputv %hrText.24 %tmp.208;
-        symbol [ hrText %hrText.24 99 12 18 ];
-[ "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc" 100 8 ]
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_100_8_100_70_if_stmt:
-        %tmp.209 = lgetv %heartRateLabel.23;
-        symbol [ heartRateLabel %tmp.209 100 12 26 ];
-        %tmp.210 = null;
-        %tmp.211 = ne %tmp.209 %tmp.210;
-        bf %tmp.211 @C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_100_8_100_70_if_end;
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_100_8_100_70_if_true:
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_100_36_100_70_start:
-[ "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc" 100 38 ]
-        %tmp.212 = lgetv %heartRateLabel.23;
-        symbol [ heartRateLabel %tmp.212 100 38 52 ];
-        %tmp.213 = as %tmp.212 { (!Null) };
-        symbol [ setText %tmp.214 100 53 60 ];
-        %tmp.214 = getv function %tmp.213 :setText;
-        %tmp.215 = lgetv %hrText.24;
-        symbol [ hrText %tmp.215 100 61 67 ];
-        invoke %tmp.213 %tmp.214(%tmp.215);
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_100_36_100_70_stop:
-        goto @C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_100_8_100_70_if_end;
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_100_8_100_70_if_end:
-[ "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc" 107 8 ]
-        [ "C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_32_40_112_4_start" "C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_32_40_112_4_stop" ]
-        %heartIcon.25 = local;
-        symbol [ heartIcon %heartIcon.25 107 12 21 ];
-        symbol [ View %tmp.217 107 24 28 ];
-        %tmp.217 = getv ? :View;
-        symbol [ findDrawableById %tmp.218 107 29 45 ];
-        %tmp.218 = getv function %tmp.217 :findDrawableById;
-        %tmp.219 = "HeartIcon";
-        %tmp.220 = invoke %tmp.217 %tmp.218(%tmp.219);
-        %tmp.221 = as %tmp.220 WatchUi.Drawable;
-        symbol [ WatchUi %tmp.221 107 62 69 ];
-        symbol [ Drawable %tmp.221 107 70 78 ];
-        lputv %heartIcon.25 %tmp.221;
-        symbol [ heartIcon %heartIcon.25 107 12 21 ];
-[ "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc" 108 8 ]
-        [ "C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_32_40_112_4_start" "C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_32_40_112_4_stop" ]
-        %stepsIcon.26 = local;
-        symbol [ stepsIcon %stepsIcon.26 108 12 21 ];
-        symbol [ View %tmp.223 108 24 28 ];
-        %tmp.223 = getv ? :View;
-        symbol [ findDrawableById %tmp.224 108 29 45 ];
-        %tmp.224 = getv function %tmp.223 :findDrawableById;
-        %tmp.225 = "StepsIcon";
-        %tmp.226 = invoke %tmp.223 %tmp.224(%tmp.225);
-        %tmp.227 = as %tmp.226 WatchUi.Drawable;
-        symbol [ WatchUi %tmp.227 108 62 69 ];
-        symbol [ Drawable %tmp.227 108 70 78 ];
-        lputv %stepsIcon.26 %tmp.227;
-        symbol [ stepsIcon %stepsIcon.26 108 12 21 ];
-[ "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc" 111 8 ]
-        symbol [ View %tmp.229 111 8 12 ];
-        %tmp.229 = getv ? :View;
-        symbol [ onUpdate %tmp.230 111 13 21 ];
-        %tmp.230 = getv function %tmp.229 :onUpdate;
-        %tmp.231 = lgetv %dc;
-        symbol [ dc %tmp.231 111 22 24 ];
-        invoke %tmp.229 %tmp.230(%tmp.231);
-C_Users_vidlight_4___HomeStuff_workspace_watchFaces_omnitrix_source_omnitrixView_mc_32_40_112_4_stop:
+        bf %tmp.111 @_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_63_8_63_64_if_end;
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_63_8_63_64_if_true:
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_63_31_63_64_start:
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 63 33 ]
+        %tmp.112 = lgetv %dateLabel.10;
+        symbol [ dateLabel %tmp.112 63 33 42 ];
+        %tmp.113 = as %tmp.112 { (!Null) };
+        symbol [ setText %tmp.114 63 43 50 ];
+        %tmp.114 = getv function %tmp.113 :setText;
+        %tmp.115 = lgetv %dateString.7;
+        symbol [ dateString %tmp.115 63 51 61 ];
+        invoke %tmp.113 %tmp.114(%tmp.115);
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_63_31_63_64_stop:
+        goto @_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_63_8_63_64_if_end;
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_63_8_63_64_if_end:
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 69 8 ]
+        [ "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_start" "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_stop" ]
+        %heartIcon.11 = local;
+        symbol [ heartIcon %heartIcon.11 69 12 21 ];
+        symbol [ View %tmp.117 69 24 28 ];
+        %tmp.117 = getv ? :View;
+        symbol [ findDrawableById %tmp.118 69 29 45 ];
+        %tmp.118 = getv function %tmp.117 :findDrawableById;
+        %tmp.119 = "HeartIcon";
+        %tmp.120 = invoke %tmp.117 %tmp.118(%tmp.119);
+        %tmp.121 = as %tmp.120 WatchUi.Drawable;
+        symbol [ WatchUi %tmp.121 69 62 69 ];
+        symbol [ Drawable %tmp.121 69 70 78 ];
+        lputv %heartIcon.11 %tmp.121;
+        symbol [ heartIcon %heartIcon.11 69 12 21 ];
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 72 8 ]
+        symbol [ View %tmp.123 72 8 12 ];
+        %tmp.123 = getv ? :View;
+        symbol [ onUpdate %tmp.124 72 13 21 ];
+        %tmp.124 = getv function %tmp.123 :onUpdate;
+        %tmp.125 = lgetv %dc;
+        symbol [ dc %tmp.125 72 22 24 ];
+        invoke %tmp.123 %tmp.124(%tmp.125);
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 75 8 ]
+        [ "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_start" "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_stop" ]
+        %width.12 = local;
+        symbol [ width %width.12 75 12 17 ];
+        %tmp.126 = lgetv %dc;
+        symbol [ dc %tmp.126 75 20 22 ];
+        symbol [ getWidth %tmp.127 75 23 31 ];
+        %tmp.127 = getv function %tmp.126 :getWidth;
+        %tmp.128 = invoke %tmp.126 %tmp.127();
+        lputv %width.12 %tmp.128;
+        symbol [ width %width.12 75 12 17 ];
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 76 8 ]
+        [ "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_start" "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_stop" ]
+        %height.13 = local;
+        symbol [ height %height.13 76 12 18 ];
+        %tmp.129 = lgetv %dc;
+        symbol [ dc %tmp.129 76 21 23 ];
+        symbol [ getHeight %tmp.130 76 24 33 ];
+        %tmp.130 = getv function %tmp.129 :getHeight;
+        %tmp.131 = invoke %tmp.129 %tmp.130();
+        lputv %height.13 %tmp.131;
+        symbol [ height %height.13 76 12 18 ];
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 77 8 ]
+        [ "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_start" "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_stop" ]
+        %centerX.14 = local;
+        symbol [ centerX %centerX.14 77 12 19 ];
+        %tmp.132 = lgetv %width.12;
+        symbol [ width %tmp.132 77 22 27 ];
+        %tmp.133 = 2;
+        %tmp.134 = div %tmp.132 %tmp.133;
+        lputv %centerX.14 %tmp.134;
+        symbol [ centerX %centerX.14 77 12 19 ];
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 78 8 ]
+        [ "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_start" "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_stop" ]
+        %centerY.15 = local;
+        symbol [ centerY %centerY.15 78 12 19 ];
+        %tmp.135 = lgetv %height.13;
+        symbol [ height %tmp.135 78 22 28 ];
+        %tmp.136 = 2;
+        %tmp.137 = div %tmp.135 %tmp.136;
+        lputv %centerY.15 %tmp.137;
+        symbol [ centerY %centerY.15 78 12 19 ];
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 79 8 ]
+        [ "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_start" "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_stop" ]
+        %circleRadius.16 = local;
+        symbol [ circleRadius %circleRadius.16 79 12 24 ];
+        %tmp.138 = lgetv %width.12;
+        symbol [ width %tmp.138 79 27 32 ];
+        %tmp.139 = 0.18;
+        %tmp.140 = mul %tmp.138 %tmp.139;
+        lputv %circleRadius.16 %tmp.140;
+        symbol [ circleRadius %circleRadius.16 79 12 24 ];
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 80 8 ]
+        [ "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_start" "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_stop" ]
+        %circleX.17 = local;
+        symbol [ circleX %circleX.17 80 12 19 ];
+        %tmp.141 = lgetv %centerX.14;
+        symbol [ centerX %tmp.141 80 22 29 ];
+        %tmp.142 = lgetv %width.12;
+        symbol [ width %tmp.142 80 32 37 ];
+        %tmp.143 = 0.25;
+        %tmp.144 = mul %tmp.142 %tmp.143;
+        %tmp.145 = add %tmp.141 %tmp.144;
+        lputv %circleX.17 %tmp.145;
+        symbol [ circleX %circleX.17 80 12 19 ];
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 81 8 ]
+        [ "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_start" "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_stop" ]
+        %circleY.18 = local;
+        symbol [ circleY %circleY.18 81 12 19 ];
+        %tmp.146 = lgetv %centerY.15;
+        symbol [ centerY %tmp.146 81 22 29 ];
+        lputv %circleY.18 %tmp.146;
+        symbol [ circleY %circleY.18 81 12 19 ];
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 84 8 ]
+        symbol [ System %tmp.147 84 8 14 ];
+        %tmp.147 = getm $.Toybox.System;
+        symbol [ println %tmp.148 84 15 22 ];
+        %tmp.148 = getv function %tmp.147 :println;
+        %tmp.149 = "circleX: ";
+        %tmp.150 = lgetv %circleX.17;
+        symbol [ circleX %tmp.150 84 37 44 ];
+        %tmp.151 = add %tmp.149 %tmp.150;
+        invoke %tmp.147 %tmp.148(%tmp.151);
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 85 8 ]
+        symbol [ System %tmp.152 85 8 14 ];
+        %tmp.152 = getm $.Toybox.System;
+        symbol [ println %tmp.153 85 15 22 ];
+        %tmp.153 = getv function %tmp.152 :println;
+        %tmp.154 = "circleY: ";
+        %tmp.155 = lgetv %circleY.18;
+        symbol [ circleY %tmp.155 85 37 44 ];
+        %tmp.156 = add %tmp.154 %tmp.155;
+        invoke %tmp.152 %tmp.153(%tmp.156);
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 86 8 ]
+        symbol [ System %tmp.157 86 8 14 ];
+        %tmp.157 = getm $.Toybox.System;
+        symbol [ println %tmp.158 86 15 22 ];
+        %tmp.158 = getv function %tmp.157 :println;
+        %tmp.159 = "circleRadius: ";
+        %tmp.160 = lgetv %circleRadius.16;
+        symbol [ circleRadius %tmp.160 86 42 54 ];
+        %tmp.161 = add %tmp.159 %tmp.160;
+        invoke %tmp.157 %tmp.158(%tmp.161);
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 87 8 ]
+        %tmp.162 = lgetv %dc;
+        symbol [ dc %tmp.162 87 8 10 ];
+        symbol [ setColor %tmp.163 87 11 19 ];
+        %tmp.163 = getv function %tmp.162 :setColor;
+        symbol [ Graphics %tmp.164 87 20 28 ];
+        %tmp.164 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.165 87 29 40 ];
+        %tmp.165 = getv %tmp.164 :COLOR_BLACK;
+        symbol [ Graphics %tmp.166 87 42 50 ];
+        %tmp.166 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.167 87 51 68 ];
+        %tmp.167 = getv %tmp.166 :COLOR_TRANSPARENT;
+        invoke %tmp.162 %tmp.163(%tmp.165, %tmp.167);
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 88 8 ]
+        %tmp.168 = lgetv %dc;
+        symbol [ dc %tmp.168 88 8 10 ];
+        symbol [ drawCircle %tmp.169 88 11 21 ];
+        %tmp.169 = getv function %tmp.168 :drawCircle;
+        %tmp.170 = lgetv %circleX.17;
+        symbol [ circleX %tmp.170 88 22 29 ];
+        %tmp.171 = lgetv %circleY.18;
+        symbol [ circleY %tmp.171 88 31 38 ];
+        %tmp.172 = lgetv %circleRadius.16;
+        symbol [ circleRadius %tmp.172 88 40 52 ];
+        invoke %tmp.168 %tmp.169(%tmp.170, %tmp.171, %tmp.172);
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 91 8 ]
+        [ "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_start" "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_stop" ]
+        %hr.19 = local;
+        symbol [ hr %hr.19 91 12 14 ];
+        %tmp.173 = null;
+        lputv %hr.19 %tmp.173;
+        symbol [ hr %hr.19 91 12 14 ];
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 93 8 ]
+        [ "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_start" "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_stop" ]
+        %activity.20 = local;
+        symbol [ activity %activity.20 93 12 20 ];
+        symbol [ Activity %tmp.174 93 23 31 ];
+        %tmp.174 = getm $.Toybox.Activity;
+        symbol [ getActivityInfo %tmp.175 93 32 47 ];
+        %tmp.175 = getv function %tmp.174 :getActivityInfo;
+        %tmp.176 = invoke %tmp.174 %tmp.175();
+        lputv %activity.20 %tmp.176;
+        symbol [ activity %activity.20 93 12 20 ];
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 94 8 ]
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_94_8_96_8_if_stmt:
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_94_12_94_61_begin:
+        %tmp.177 = lgetv %activity.20;
+        symbol [ activity %tmp.177 94 12 20 ];
+        %tmp.178 = null;
+        %tmp.179 = ne %tmp.177 %tmp.178;
+        bf %tmp.179 @_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_94_8_96_8_if_end;
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_94_32_94_61_true:
+        %tmp.180 = lgetv %activity.20;
+        symbol [ activity %tmp.180 94 32 40 ];
+        %tmp.181 = as %tmp.180 { (!Null) };
+        symbol [ currentHeartRate %tmp.182 94 41 57 ];
+        %tmp.182 = getv %tmp.181 :currentHeartRate;
+        %tmp.183 = null;
+        %tmp.184 = ne %tmp.182 %tmp.183;
+        push %tmp.184;
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_94_32_94_61_end:
+        %tmp.185 = phi [%tmp.179 @_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_94_12_94_61_begin] [%tmp.184 @_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_94_32_94_61_true] [%tmp.185 @_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_94_32_94_61_end];
+        bf %tmp.185 @_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_94_8_96_8_if_end;
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_94_8_96_8_if_true:
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_94_67_96_8_start:
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 95 12 ]
+        %tmp.186 = lgetv %activity.20;
+        symbol [ activity %tmp.186 95 17 25 ];
+        %tmp.187 = as %tmp.186 { (!Null) };
+        symbol [ currentHeartRate %tmp.188 95 26 42 ];
+        %tmp.188 = getv %tmp.187 :currentHeartRate;
+        lputv %hr.19 %tmp.188;
+        symbol [ hr %hr.19 95 12 14 ];
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_94_67_96_8_stop:
+        goto @_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_94_8_96_8_if_end;
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_94_8_96_8_if_end:
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 100 8 ]
+        [ "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_start" "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_stop" ]
+        %heartRateLabel.21 = local;
+        symbol [ heartRateLabel %heartRateLabel.21 100 12 26 ];
+        symbol [ View %tmp.190 100 29 33 ];
+        %tmp.190 = getv ? :View;
+        symbol [ findDrawableById %tmp.191 100 34 50 ];
+        %tmp.191 = getv function %tmp.190 :findDrawableById;
+        %tmp.192 = "HeartRateLabel";
+        %tmp.193 = invoke %tmp.190 %tmp.191(%tmp.192);
+        %tmp.194 = as %tmp.193 WatchUi.Text;
+        symbol [ WatchUi %tmp.194 100 72 79 ];
+        symbol [ Text %tmp.194 100 80 84 ];
+        lputv %heartRateLabel.21 %tmp.194;
+        symbol [ heartRateLabel %heartRateLabel.21 100 12 26 ];
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 101 8 ]
+        [ "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_start" "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_stop" ]
+        %hrText.22 = local;
+        symbol [ hrText %hrText.22 101 12 18 ];
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_101_21_101_52_begin:
+        %tmp.195 = lgetv %hr.19;
+        symbol [ hr %tmp.195 101 22 24 ];
+        %tmp.196 = null;
+        %tmp.197 = ne %tmp.195 %tmp.196;
+        bf %tmp.197 @_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_101_21_101_52_false;
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_101_21_101_52_true:
+        %tmp.198 = lgetv %hr.19;
+        symbol [ hr %tmp.198 101 36 38 ];
+        %tmp.199 = as %tmp.198 { (!Null) };
+        symbol [ toString %tmp.200 101 39 47 ];
+        %tmp.200 = getv function %tmp.199 :toString;
+        %tmp.201 = invoke %tmp.199 %tmp.200();
+        push %tmp.201;
+        goto @_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_101_21_101_52_end;
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_101_21_101_52_false:
+        %tmp.202 = "--";
+        push %tmp.202;
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_101_21_101_52_end:
+        %tmp.203 = phi [%tmp.197 @_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_101_21_101_52_begin] [%tmp.201 @_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_101_21_101_52_true] [%tmp.202 @_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_101_21_101_52_false] [%tmp.203 @_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_101_21_101_52_end];
+        lputv %hrText.22 %tmp.203;
+        symbol [ hrText %hrText.22 101 12 18 ];
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 102 8 ]
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_102_8_102_70_if_stmt:
+        %tmp.204 = lgetv %heartRateLabel.21;
+        symbol [ heartRateLabel %tmp.204 102 12 26 ];
+        %tmp.205 = null;
+        %tmp.206 = ne %tmp.204 %tmp.205;
+        bf %tmp.206 @_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_102_8_102_70_if_end;
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_102_8_102_70_if_true:
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_102_36_102_70_start:
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 102 38 ]
+        %tmp.207 = lgetv %heartRateLabel.21;
+        symbol [ heartRateLabel %tmp.207 102 38 52 ];
+        %tmp.208 = as %tmp.207 { (!Null) };
+        symbol [ setText %tmp.209 102 53 60 ];
+        %tmp.209 = getv function %tmp.208 :setText;
+        %tmp.210 = lgetv %hrText.22;
+        symbol [ hrText %tmp.210 102 61 67 ];
+        invoke %tmp.208 %tmp.209(%tmp.210);
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_102_36_102_70_stop:
+        goto @_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_102_8_102_70_if_end;
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_102_8_102_70_if_end:
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 105 8 ]
+        [ "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_start" "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_stop" ]
+        %stepsIcon.23 = local;
+        symbol [ stepsIcon %stepsIcon.23 105 12 21 ];
+        symbol [ View %tmp.212 105 24 28 ];
+        %tmp.212 = getv ? :View;
+        symbol [ findDrawableById %tmp.213 105 29 45 ];
+        %tmp.213 = getv function %tmp.212 :findDrawableById;
+        %tmp.214 = "StepsIcon";
+        %tmp.215 = invoke %tmp.212 %tmp.213(%tmp.214);
+        %tmp.216 = as %tmp.215 WatchUi.Drawable;
+        symbol [ WatchUi %tmp.216 105 62 69 ];
+        symbol [ Drawable %tmp.216 105 70 78 ];
+        lputv %stepsIcon.23 %tmp.216;
+        symbol [ stepsIcon %stepsIcon.23 105 12 21 ];
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 108 8 ]
+        symbol [ View %tmp.218 108 8 12 ];
+        %tmp.218 = getv ? :View;
+        symbol [ onUpdate %tmp.219 108 13 21 ];
+        %tmp.219 = getv function %tmp.218 :onUpdate;
+        %tmp.220 = lgetv %dc;
+        symbol [ dc %tmp.220 108 22 24 ];
+        invoke %tmp.218 %tmp.219(%tmp.220);
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 111 8 ]
+        [ "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_start" "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_stop" ]
+        %steps.24 = local;
+        symbol [ steps %steps.24 111 12 17 ];
+        %tmp.221 = 0;
+        lputv %steps.24 %tmp.221;
+        symbol [ steps %steps.24 111 12 17 ];
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 112 8 ]
+        [ "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_start" "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_stop" ]
+        %info.25 = local;
+        symbol [ info %info.25 112 12 16 ];
+        symbol [ ActivityMonitor %tmp.222 112 19 34 ];
+        %tmp.222 = getm $.Toybox.ActivityMonitor;
+        symbol [ getInfo %tmp.223 112 35 42 ];
+        %tmp.223 = getv function %tmp.222 :getInfo;
+        %tmp.224 = invoke %tmp.222 %tmp.223();
+        lputv %info.25 %tmp.224;
+        symbol [ info %info.25 112 12 16 ];
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 113 8 ]
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_113_8_115_8_if_stmt:
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_113_12_113_42_begin:
+        %tmp.225 = lgetv %info.25;
+        symbol [ info %tmp.225 113 12 16 ];
+        %tmp.226 = null;
+        %tmp.227 = ne %tmp.225 %tmp.226;
+        bf %tmp.227 @_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_113_8_115_8_if_end;
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_113_28_113_42_true:
+        %tmp.228 = lgetv %info.25;
+        symbol [ info %tmp.228 113 28 32 ];
+        %tmp.229 = as %tmp.228 { (!Null) };
+        symbol [ steps %tmp.230 113 33 38 ];
+        %tmp.230 = getv %tmp.229 :steps;
+        %tmp.231 = null;
+        %tmp.232 = ne %tmp.230 %tmp.231;
+        push %tmp.232;
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_113_28_113_42_end:
+        %tmp.233 = phi [%tmp.227 @_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_113_12_113_42_begin] [%tmp.232 @_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_113_28_113_42_true] [%tmp.233 @_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_113_28_113_42_end];
+        bf %tmp.233 @_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_113_8_115_8_if_end;
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_113_8_115_8_if_true:
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_113_48_115_8_start:
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 114 12 ]
+        %tmp.234 = lgetv %info.25;
+        symbol [ info %tmp.234 114 20 24 ];
+        %tmp.235 = as %tmp.234 { (!Null) };
+        symbol [ steps %tmp.236 114 25 30 ];
+        %tmp.236 = getv %tmp.235 :steps;
+        lputv %steps.24 %tmp.236;
+        symbol [ steps %steps.24 114 12 17 ];
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_113_48_115_8_stop:
+        goto @_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_113_8_115_8_if_end;
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_113_8_115_8_if_end:
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 116 8 ]
+        [ "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_start" "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_stop" ]
+        %stepCircleColor.26 = local;
+        symbol [ stepCircleColor %stepCircleColor.26 116 12 27 ];
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_116_30_116_136_begin:
+        symbol [ Application %tmp.237 116 30 41 ];
+        %tmp.237 = getm $.Toybox.Application;
+        symbol [ Properties %tmp.238 116 42 52 ];
+        %tmp.238 = getv %tmp.237 :Properties;
+        symbol [ getValue %tmp.239 116 53 61 ];
+        %tmp.239 = getv function %tmp.238 :getValue;
+        %tmp.240 = "StepCircleColor";
+        %tmp.241 = invoke %tmp.238 %tmp.239(%tmp.240);
+        bf %tmp.241 @_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_116_30_116_136_false;
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_116_30_116_136_true:
+        symbol [ Application %tmp.242 116 83 94 ];
+        %tmp.242 = getm $.Toybox.Application;
+        symbol [ Properties %tmp.243 116 95 105 ];
+        %tmp.243 = getv %tmp.242 :Properties;
+        symbol [ getValue %tmp.244 116 106 114 ];
+        %tmp.244 = getv function %tmp.243 :getValue;
+        %tmp.245 = "StepCircleColor";
+        %tmp.246 = invoke %tmp.243 %tmp.244(%tmp.245);
+        push %tmp.246;
+        goto @_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_116_30_116_136_end;
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_116_30_116_136_false:
+        %tmp.247 = 0x000000;
+        push %tmp.247;
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_116_30_116_136_end:
+        %tmp.248 = phi [%tmp.241 @_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_116_30_116_136_begin] [%tmp.246 @_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_116_30_116_136_true] [%tmp.247 @_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_116_30_116_136_false] [%tmp.248 @_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_116_30_116_136_end];
+        lputv %stepCircleColor.26 %tmp.248;
+        symbol [ stepCircleColor %stepCircleColor.26 116 12 27 ];
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 117 8 ]
+        [ "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_start" "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_stop" ]
+        %stepTextColor.27 = local;
+        symbol [ stepTextColor %stepTextColor.27 117 12 25 ];
+        %tmp.249 = 0x000000;
+        lputv %stepTextColor.27 %tmp.249;
+        symbol [ stepTextColor %stepTextColor.27 117 12 25 ];
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 118 8 ]
+        [ "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_start" "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_stop" ]
+        %stepCircleRadius.28 = local;
+        symbol [ stepCircleRadius %stepCircleRadius.28 118 12 28 ];
+        %tmp.250 = lgetv %width.12;
+        symbol [ width %tmp.250 118 31 36 ];
+        %tmp.251 = 0.13;
+        %tmp.252 = mul %tmp.250 %tmp.251;
+        lputv %stepCircleRadius.28 %tmp.252;
+        symbol [ stepCircleRadius %stepCircleRadius.28 118 12 28 ];
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 119 8 ]
+        [ "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_start" "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_stop" ]
+        %stepCircleX.29 = local;
+        symbol [ stepCircleX %stepCircleX.29 119 12 23 ];
+        %tmp.253 = lgetv %centerX.14;
+        symbol [ centerX %tmp.253 119 26 33 ];
+        lputv %stepCircleX.29 %tmp.253;
+        symbol [ stepCircleX %stepCircleX.29 119 12 23 ];
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 120 8 ]
+        [ "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_start" "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_stop" ]
+        %stepCircleY.30 = local;
+        symbol [ stepCircleY %stepCircleY.30 120 12 23 ];
+        %tmp.254 = lgetv %height.13;
+        symbol [ height %tmp.254 120 26 32 ];
+        %tmp.255 = lgetv %stepCircleRadius.28;
+        symbol [ stepCircleRadius %tmp.255 120 35 51 ];
+        %tmp.256 = sub %tmp.254 %tmp.255;
+        %tmp.257 = lgetv %width.12;
+        symbol [ width %tmp.257 120 55 60 ];
+        %tmp.258 = 0.05;
+        %tmp.259 = mul %tmp.257 %tmp.258;
+        %tmp.260 = sub %tmp.256 %tmp.259;
+        lputv %stepCircleY.30 %tmp.260;
+        symbol [ stepCircleY %stepCircleY.30 120 12 23 ];
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 122 8 ]
+        %tmp.261 = lgetv %dc;
+        symbol [ dc %tmp.261 122 8 10 ];
+        symbol [ setColor %tmp.262 122 11 19 ];
+        %tmp.262 = getv function %tmp.261 :setColor;
+        symbol [ Graphics %tmp.263 122 20 28 ];
+        %tmp.263 = getm $.Toybox.Graphics;
+        symbol [ COLOR_RED %tmp.264 122 29 38 ];
+        %tmp.264 = getv %tmp.263 :COLOR_RED;
+        symbol [ Graphics %tmp.265 122 40 48 ];
+        %tmp.265 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.266 122 49 60 ];
+        %tmp.266 = getv %tmp.265 :COLOR_BLACK;
+        invoke %tmp.261 %tmp.262(%tmp.264, %tmp.266);
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 123 8 ]
+        %tmp.267 = lgetv %dc;
+        symbol [ dc %tmp.267 123 8 10 ];
+        symbol [ fillCircle %tmp.268 123 11 21 ];
+        %tmp.268 = getv function %tmp.267 :fillCircle;
+        %tmp.269 = lgetv %stepCircleX.29;
+        symbol [ stepCircleX %tmp.269 123 22 33 ];
+        %tmp.270 = lgetv %stepCircleY.30;
+        symbol [ stepCircleY %tmp.270 123 35 46 ];
+        %tmp.271 = lgetv %stepCircleRadius.28;
+        symbol [ stepCircleRadius %tmp.271 123 48 64 ];
+        invoke %tmp.267 %tmp.268(%tmp.269, %tmp.270, %tmp.271);
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 125 8 ]
+        [ "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_start" "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_stop" ]
+        %iconSize.31 = local;
+        symbol [ iconSize %iconSize.31 125 12 20 ];
+        %tmp.272 = lgetv %stepCircleRadius.28;
+        symbol [ stepCircleRadius %tmp.272 125 23 39 ];
+        %tmp.273 = 0.6;
+        %tmp.274 = mul %tmp.272 %tmp.273;
+        lputv %iconSize.31 %tmp.274;
+        symbol [ iconSize %iconSize.31 125 12 20 ];
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 126 8 ]
+        [ "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_start" "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_stop" ]
+        %iconY.32 = local;
+        symbol [ iconY %iconY.32 126 12 17 ];
+        %tmp.275 = lgetv %stepCircleY.30;
+        symbol [ stepCircleY %tmp.275 126 20 31 ];
+        %tmp.276 = lgetv %iconSize.31;
+        symbol [ iconSize %tmp.276 126 35 43 ];
+        %tmp.277 = 0.7;
+        %tmp.278 = mul %tmp.276 %tmp.277;
+        %tmp.279 = sub %tmp.275 %tmp.278;
+        lputv %iconY.32 %tmp.279;
+        symbol [ iconY %iconY.32 126 12 17 ];
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 127 8 ]
+        [ "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_start" "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_stop" ]
+        %iconX.33 = local;
+        symbol [ iconX %iconX.33 127 12 17 ];
+        %tmp.280 = lgetv %stepCircleX.29;
+        symbol [ stepCircleX %tmp.280 127 20 31 ];
+        %tmp.281 = lgetv %iconSize.31;
+        symbol [ iconSize %tmp.281 127 35 43 ];
+        %tmp.282 = 2;
+        %tmp.283 = div %tmp.281 %tmp.282;
+        %tmp.284 = sub %tmp.280 %tmp.283;
+        lputv %iconX.33 %tmp.284;
+        symbol [ iconX %iconX.33 127 12 17 ];
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 128 8 ]
+        [ "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_start" "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_stop" ]
+        %iconBitmap.34 = local;
+        symbol [ iconBitmap %iconBitmap.34 128 12 22 ];
+        symbol [ WatchUi %tmp.285 128 25 32 ];
+        %tmp.285 = getm $.Toybox.WatchUi;
+        symbol [ loadResource %tmp.286 128 33 45 ];
+        %tmp.286 = getv function %tmp.285 :loadResource;
+        symbol [ Rez %tmp.288 128 46 49 ];
+        %tmp.288 = getv ? :Rez;
+        symbol [ Drawables %tmp.289 128 50 59 ];
+        %tmp.289 = getv %tmp.288 :Drawables;
+        symbol [ FootstepsIcon %tmp.290 128 60 73 ];
+        %tmp.290 = getv %tmp.289 :FootstepsIcon;
+        %tmp.291 = invoke %tmp.285 %tmp.286(%tmp.290);
+        lputv %iconBitmap.34 %tmp.291;
+        symbol [ iconBitmap %iconBitmap.34 128 12 22 ];
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 129 8 ]
+        %tmp.292 = lgetv %dc;
+        symbol [ dc %tmp.292 129 8 10 ];
+        symbol [ drawBitmap %tmp.293 129 11 21 ];
+        %tmp.293 = getv function %tmp.292 :drawBitmap;
+        %tmp.294 = lgetv %iconX.33;
+        symbol [ iconX %tmp.294 129 22 27 ];
+        %tmp.295 = lgetv %iconY.32;
+        symbol [ iconY %tmp.295 129 29 34 ];
+        %tmp.296 = lgetv %iconBitmap.34;
+        symbol [ iconBitmap %tmp.296 129 36 46 ];
+        invoke %tmp.292 %tmp.293(%tmp.294, %tmp.295, %tmp.296);
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 131 8 ]
+        [ "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_start" "_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_stop" ]
+        %stepText.35 = local;
+        symbol [ stepText %stepText.35 131 12 20 ];
+        %tmp.297 = lgetv %steps.24;
+        symbol [ steps %tmp.297 131 23 28 ];
+        symbol [ toString %tmp.298 131 29 37 ];
+        %tmp.298 = getv function %tmp.297 :toString;
+        %tmp.299 = invoke %tmp.297 %tmp.298();
+        lputv %stepText.35 %tmp.299;
+        symbol [ stepText %stepText.35 131 12 20 ];
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 132 8 ]
+        %tmp.300 = lgetv %dc;
+        symbol [ dc %tmp.300 132 8 10 ];
+        symbol [ setColor %tmp.301 132 11 19 ];
+        %tmp.301 = getv function %tmp.300 :setColor;
+        %tmp.302 = lgetv %stepTextColor.27;
+        symbol [ stepTextColor %tmp.302 132 20 33 ];
+        symbol [ Graphics %tmp.303 132 35 43 ];
+        %tmp.303 = getm $.Toybox.Graphics;
+        symbol [ COLOR_RED %tmp.304 132 44 53 ];
+        %tmp.304 = getv %tmp.303 :COLOR_RED;
+        invoke %tmp.300 %tmp.301(%tmp.302, %tmp.304);
+[ "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc" 133 8 ]
+        %tmp.305 = lgetv %dc;
+        symbol [ dc %tmp.305 133 8 10 ];
+        symbol [ drawText %tmp.306 133 11 19 ];
+        %tmp.306 = getv function %tmp.305 :drawText;
+        %tmp.307 = lgetv %stepCircleX.29;
+        symbol [ stepCircleX %tmp.307 133 20 31 ];
+        %tmp.308 = lgetv %stepCircleY.30;
+        symbol [ stepCircleY %tmp.308 133 33 44 ];
+        %tmp.309 = lgetv %stepCircleRadius.28;
+        symbol [ stepCircleRadius %tmp.309 133 48 64 ];
+        %tmp.310 = 0.25;
+        %tmp.311 = mul %tmp.309 %tmp.310;
+        %tmp.312 = add %tmp.308 %tmp.311;
+        symbol [ Graphics %tmp.313 133 74 82 ];
+        %tmp.313 = getm $.Toybox.Graphics;
+        symbol [ FONT_LARGE %tmp.314 133 83 93 ];
+        %tmp.314 = getv %tmp.313 :FONT_LARGE;
+        %tmp.315 = lgetv %stepText.35;
+        symbol [ stepText %tmp.315 133 95 103 ];
+        symbol [ Graphics %tmp.316 133 105 113 ];
+        %tmp.316 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.317 133 114 133 ];
+        %tmp.317 = getv %tmp.316 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.305 %tmp.306(%tmp.307, %tmp.312, %tmp.314, %tmp.315, %tmp.317);
+_Users_vidlight_Desktop_1___Code_Space_watchFaces_omnitrix_source_omnitrixView_mc_33_40_139_4_stop:
     }
-    [ @file = "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc"; @line = 117; @symbol_functiondef = [onHide,117,13,19]; ]
+    [ @file = "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc"; @line = 144; @symbol_functiondef = [onHide,144,13,19]; ]
     function onHide() as Void {
     }
-    [ @file = "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc"; @line = 121; @symbol_functiondef = [onExitSleep,121,13,24]; ]
+    [ @file = "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc"; @line = 148; @symbol_functiondef = [onExitSleep,148,13,24]; ]
     function onExitSleep() as Void {
     }
-    [ @file = "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc"; @line = 125; @symbol_functiondef = [onEnterSleep,125,13,25]; ]
+    [ @file = "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc"; @line = 152; @symbol_functiondef = [onEnterSleep,152,13,25]; ]
     function onEnterSleep() as Void {
     }
 }
-[ @file = "C:\Users\vidlight\4 - HomeStuff\workspace\watchFaces\omnitrix\source\omnitrixView.mc"; @line = 1; ]
+[ @file = "/Users/vidlight/Desktop/1 - Code Space/watchFaces/omnitrix/source/omnitrixView.mc"; @line = 1; ]
 <init> {
 }

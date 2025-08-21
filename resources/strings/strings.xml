@@ -5,6 +5,8 @@
     <string id="BackgroundColorTitle">Background Color</string>
     <string id="ForegroundColorTitle">Foreground Color</string>
     <string id="MilitaryFormatTitle">Military Format for 24 Hour Time</string>
+    <string id="StepCircleColorTitle">Step Circle Color</string>
+    <string id="StepTextColorTitle">Step Text Color</string>
 
     <string id="ColorBlack">Black</string>
     <string id="ColorDarkGray">Dark Gray</string>
